@@ -1,0 +1,292 @@
+modeltype portail "strict" uses "http://www.example.org/portail";
+modeltype markdown "strict" uses "http://www.example.org/simplemarkdown";
+
+transformation portail2mk( in universite : portail , out folder : markdown);
+
+main() {
+
+	var document : Document := object Document {
+		name :="Fil";
+	};
+	
+
+	universite.rootObjects().allSubobjectsOfType(Departement)[Departement] -> map departement2titre1(document);
+}
+
+mapping portail::Departement:: departement2titre1(inout doc : Document){
+
+	doc.contents += object Title {
+		level:=1;
+		elements += object Text {text := "Département "+self.name};
+	};
+	
+	doc.contents += object Paragraph{
+		elements += object Text { text := "Portail du département " + self.name};
+		elements += object Text { text := self.description};
+		elements += object StrongEmphasis { text :="Responsable :"};
+		elements += object Text { text := self.responsableDepartement.name};
+	};
+	
+	self.formations -> map formation2Titre1(doc);
+	
+};
+
+mapping portail::Formation::formation2Titre1(inout doc : Document ) {
+
+	// Titre de la formation
+	doc.contents += object Title {
+		level := 1;
+		elements += self.name-> map nom2Text() ;
+	};
+	
+	// Paragraphe de description de formation
+	self.description -> map description2paragraphe(doc);
+	
+	// Paragraphe des employés
+	doc.contents += object Paragraph{
+		elements += object StrongEmphasis { text :="Responsables Formation:"};
+		self.responsablesFormation -> forEach(intervenant){
+			if(intervenant.mail<> null){
+				elements+= object Text { text := intervenant.name + " : " + intervenant.mail};
+			}else{
+				elements+= object Text { text := intervenant.name };
+			};
+			elements+= object Text { text := intervenant.bureau};
+			elements+= object Text { text := "Telephone :" + intervenant.telephone};
+		};
+		elements += object StrongEmphasis { text :="Secrétaires Formation:"};
+		self.secretaires -> forEach(intervenant){
+			if(intervenant.mail<> null){
+				elements+= object Text { text := intervenant.name + " : " + intervenant.mail};
+			}else{
+				elements+= object Text { text := intervenant.name };
+			};
+			elements+= object Text { text := intervenant.bureau};
+			elements+= object Text { text := "Telephone :" + intervenant.telephone};
+		};
+		elements+= object Text { text := "Crédit : "+ self.credit.toString()};
+	};
+	
+	// Les parcours
+	self.parcours -> map parcours2Titre2(doc);
+	
+	
+}
+// Prend en paramètre un document et ajoute à celui ci un Paragraphe avec un texte
+mapping String :: description2paragraphe(inout doc : Document)   {
+	doc.contents += object Paragraph{
+		
+		elements += self -> map nom2Text() ;
+	}
+	
+}
+
+// Ajoute un parcours à un document
+mapping portail::Parcours::parcours2Titre2(inout doc : Document) {
+	
+	// Création de titre pour le parcours
+	doc.contents +=object Title {
+		level :=2;
+		elements += self.name -> map nom2Text() ;
+	};
+	
+	
+	doc.contents += object Paragraph{
+	
+		elements+= object Emphasis {text := "Description :"};
+		elements += object Text {text :=  self.description};
+		elements+= object Emphasis {text := "Compétences visées :"};
+		elements += object Text {text := self.competence};
+		elements+= object Emphasis {text := "Débouchées :"};
+		elements += object Text {text :=  self.debouche};
+
+	};
+	
+	// Ajout du responsable de parcours
+	if (self.responsableParcours.name <>null){
+		 var paragraph := object Paragraph{
+		 
+			elements += object StrongEmphasis { text :="Responsable Parcours:"};
+			
+		};
+		self.responsableParcours -> map addEmploye(paragraph);
+		doc.contents += paragraph;
+	};
+	
+	// Ajout des semestres liés au parcours au document
+	self.semestres -> map semestre2Titre3(self,doc) ;
+}
+
+// Affecte les informations d'un employé à un paragraphe
+mapping portail::Employe::addEmploye(inout paragraph: Paragraph){
+	if(self.mail<> null){
+		paragraph.elements+= object Text { text := self.name + " : " + self.mail};
+	}else{
+		paragraph.elements+= object Text { text := self.name };
+	};
+	paragraph.elements+= object Text { text := self.bureau};
+	paragraph.elements+= object Text { text := "Telephone :" + self.telephone};
+	
+}
+
+// Ajout d‘un semestre à un document
+mapping portail::Semestre::semestre2Titre3(in owner : Parcours, inout doc : Document) {
+	
+	// Ajout du titre du semestre
+	doc.contents += object Title{
+		level :=3;
+		elements += object Text {text := 'S'+self.name.toString()};
+	};
+	// Ajout des dates du semestre
+	doc.contents += object Paragraph{
+		elements+= object Emphasis {text := "Date de début :"};
+		elements += object Text {text :=  self.dateDebut.toString()};
+		elements+= object Emphasis {text := "Date de Fin :"};
+		elements += object Text {text :=  self.dateFin.toString()};
+	};
+	
+	// Ajout des UE obligatoires du semestre
+	doc.contents += object Title{
+		level :=4;
+		elements += object Text {text := "UE obligatoires"};
+	};
+	self.ueObligatoires -> forEach(ue){
+		ue -> map UE2Titre5(self , doc );
+	};
+	
+	if(self.ueFacultatives->size() <> 0){
+	
+		// Ajout des UE facultatives du semestre
+		doc.contents += object Title{
+		level :=4;
+		elements += object Text {text := "UE facultatives"};
+		};
+		self.ueFacultatives-> forEach(ue){
+			ue -> map UE2Titre5(self , doc );
+		};
+	};
+	
+	
+}
+
+// Fonction qui ajoute une UE au document à partir d'un semestre
+mapping portail::UE::UE2Titre5(in owner : Semestre , inout doc : Document ){
+	
+	// Création du titre de l'UE'
+	doc.contents+=object Title{
+		level :=5;
+		elements += object Text {text := self.name};
+	};
+	
+	// Ajout d'un paragraphe contenant les informations de l'UE
+	doc.contents += object Paragraph{
+	
+		elements+= object Emphasis {text := "Objectifs :"};
+		elements += object Text {text :=  self.objectif};
+		elements+= object Emphasis {text := "Programme :"};
+		elements += object Text {text := self.programme};
+		elements+= object Emphasis {text := "Compétences :"};
+		elements += object Text {text :=  self.competence};
+		elements+= object Emphasis {text := "Evaluation :"};
+		elements += object Text {text :=  self.evaluation};
+		elements+= object Emphasis {text := "Description :"};// Ajout de la description de l'UE
+		elements += object Text {text :=  self.description};
+		elements+= object Emphasis {text := "Type d'enseignement :"};
+		elements += object Text {text :=  self.typeEnseignement};
+		elements+= object Emphasis {text := "Nombre de cours magistrales :"};
+		elements += object Text {text :=  self.heureCM.toString()};
+		elements+= object Emphasis {text := "Nombre de travaux dirigées :"};
+		elements += object Text {text :=  self.heureTD.toString()};
+		elements+= object Emphasis {text := "Nombre de travaux pratiques :"};
+		elements += object Text {text :=  self.heureTP.toString()};
+	};
+	
+	
+
+	
+	//Ajout des responsables de l'UE
+	var responsablesUE := object Paragraph{
+		elements+= object StrongEmphasis {text := "Responsables UE :"};
+	};
+	self.responsables -> forEach(responsable){
+		responsable -> map addEmploye(responsablesUE);
+	};
+	doc.contents += responsablesUE;
+	
+	// Ajout des intervants de l'UE
+	var intervenants := object Paragraph{
+		elements+= object StrongEmphasis {text := "Intervenant UE :"};
+	};
+	
+	self.intervenants -> forEach(intervenant){
+	
+		intervenant -> map addEmploye(intervenants);
+		
+	};
+	doc.contents += intervenants;
+	
+	doc.contents += object Paragraph{
+		elements+= object StrongEmphasis {text := "Séances :"};
+	};
+	self.seances-> forEach(seance){
+		seance -> map Seance2Titre6(owner,doc);
+	};
+}
+
+// Fonction qui ajoute une séance à une UE à partir d'un semestre
+mapping portail::Seance::Seance2Titre6(in owner : Semestre , inout doc : Document ){
+	
+	// Création du titre de la seance
+	doc.contents+=object Title{
+		level :=6;
+		elements += object Text {text := self.name};
+	};
+	
+	// description, type de la seance
+	doc.contents += object Paragraph{
+		elements+= object Emphasis {text := "Description:"};
+		elements += object Text {text :=  self.description};
+		elements+= object Emphasis {text := "Type :"};
+		switch{
+			case(self.kind = portail::SeanceKind::CM){
+				elements += object Text {text := "Cours magistral"};
+			};
+			case(self.kind = portail::SeanceKind::TD){
+				elements += object Text {text := "Travaux dirigés"};
+			};
+			case(self.kind = portail::SeanceKind::TP){
+				elements += object Text {text := "Travaux pratiques"};
+			};
+		};
+		
+		// Date et horaire de la séance
+		elements+= object Emphasis {text := "Date :"};
+		elements += object Text {text :=  self.date.toString()};
+		elements+= object Emphasis {text := "Horaire:"};
+		elements += object Text {text :=  self.heureDebut +" à "+self.heureFin};
+	};
+	
+	// Récuperation des ressources de la séance
+	doc.contents += object Paragraph{
+		elements+= object Emphasis {text := "Ressources :"};
+	};
+	self.ressources -> forEach(lien){
+		lien -> map addRessource(owner,doc);
+	};
+}
+
+// Fonction qui ajoute une UE au document à partir d'un semestre
+mapping portail::Ressource::addRessource(in owner : Semestre, inout doc : Document ){
+
+	doc.contents += object Reference{
+		reference:= "["+self.name+"]";
+		title:= self.name;
+		url:=self.lien;
+		
+	};
+	
+}
+mapping String :: nom2Text() : markdown:: Text {
+	text :=self;
+}
+

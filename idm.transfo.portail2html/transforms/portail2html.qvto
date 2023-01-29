@@ -1,0 +1,399 @@
+modeltype portail "strict" uses "http://www.example.org/portail";
+modeltype html "strict" uses "http://www.example.org/htmlProject";
+
+transformation portail2html(in universite : portail , out site : html);
+
+main() {
+	var site : Site := object Site {
+		name :="Fil";
+		auteur := "Université de Lille" ;
+	};
+	
+	
+	var page := object Page {
+		name := "index"  ;
+		
+	};
+	
+	page.conteneurs += object Entete {
+		niveau := 3;
+		text := "Présentation du portail de l'université de Lille "   ;
+	};
+	
+	var liste := object Liste {
+		text := "";
+	};
+	
+	liste.descriptions += object Description{
+		name := "Présentation";
+		contenu := "Bienvenue au portail de l'université de Lille";
+		
+	};
+	
+	var departement := object Description{
+		name := "Formation";
+		contenu := "Voici les différents département de notre université. Pour plus d'informations sur le contenu des formations, veuillez cliquez sur l'un des liens ci-dessous :";
+	};
+	
+	universite.rootObjects().allSubobjectsOfType(Departement)[Departement]-> forEach(element){
+		departement.elements += object Lien {
+			adresse := element.name +".html";
+			name := "Département " +element.name;
+			couleur := "danger";
+		}
+	};
+	
+	liste.descriptions += departement;
+	
+	page.conteneurs += liste;
+	
+	site.pages +=page;
+	
+	
+	universite.rootObjects().allSubobjectsOfType(Departement)[Departement] -> map departement2page(site);
+}
+
+mapping portail::Departement::departement2page(inout siteI : Site){
+	
+	
+	var page := object Page {
+		name := self.name  ;
+		
+	};
+	
+	page.conteneurs += object Entete {
+		niveau := 3;
+		text := "Présentation du portail pedagogique du " + self.name ;
+	};
+	
+	var liste := object Liste {
+		text := "";
+	};
+	
+	liste.descriptions += object Description{
+		name := "Présentation";
+		contenu := "Bienvenu au portail pédagogique du "+ self.name +" "+self.description;
+		
+	};
+	var formation := object Description{
+		name := "Formation";
+		contenu := "Voici les différentes formations du département";
+	};
+	
+	self.formations-> forEach(element){
+		formation.elements += object Lien {
+			adresse := element.name +".html";
+			name := element.name;
+			couleur := "primary";
+		}
+	};
+	
+	liste.descriptions += formation;
+	
+	liste.descriptions += object Description{
+		name := "Directeur des études ";
+		contenu := self.responsableDepartement.name ;
+		
+	};
+	
+	page.conteneurs += liste;
+	siteI.pages += page;
+	
+	self.formations -> formation2Page(siteI);
+}
+
+mapping portail::Formation::formation2Page(inout siteI : Site){
+
+	var page := object Page {
+		name := self.name;
+		
+	};
+	
+	
+	page.conteneurs += object Entete {
+		niveau := 3;
+		text := self.name;
+	};
+	
+	var liste := object Liste {
+		text := ""
+	};
+	
+	
+	
+	liste.descriptions += object Description {
+		name := "Présentation";
+		contenu := self.description
+	};
+	
+	
+	var responsableFormations := object Description {
+		name := "Responsables de la formation";
+		contenu := "" ;
+	};
+	
+	self.responsablesFormation -> forEach(intervenant){
+		responsableFormations.elements +=object Paragraphe {
+			name := intervenant.name + " : " + intervenant.mail.toString();
+		}
+	};
+	
+	liste.descriptions += responsableFormations;
+	
+	
+	var secretaires := object Description {
+		name := "Secrétaires de la formation";
+		contenu := "" ;
+	};
+	
+	self.secretaires -> forEach(intervenant){
+		secretaires.elements +=object Paragraphe {
+			name := intervenant.name + " : " + intervenant.mail.toString() + " ";
+		}
+	};
+	
+	liste.descriptions += secretaires;
+	
+	liste.descriptions += object Description {
+		name :="Crédit";
+		contenu := self.credit.toString() + " ECTS";
+	};
+	
+	var parcours := object Description {
+		name := "Parcours du master ";
+		contenu := "Le "+ self.name +" posséde différent parcours, voici les liens permettant d'avoir accés à leurs informations :";
+	};
+	
+	self.parcours -> forEach(element){
+		parcours.elements += object Lien {
+			adresse := element.name +".html";
+			name := element.name;
+			couleur := "danger";
+			
+		};
+	};
+	
+	liste.descriptions+= parcours;
+	page.conteneurs += liste;
+	siteI.pages +=page;
+	
+	self.parcours -> map parcours2page(siteI);
+	
+}
+
+mapping portail::Parcours::parcours2page(inout siteI : Site){
+	
+	var page := object Page {
+		name := self.name;
+		
+	};
+	
+	page.conteneurs += object Entete {
+		niveau := 3;
+		text := self.name;
+	};
+	
+	var liste := object Liste {
+		text := ""
+	};
+	
+	liste.descriptions += object Description {
+		name := "Présentation";
+		contenu := self.description;
+	};
+	
+	liste.descriptions += object Description {
+		name := "Compétences visées";
+		contenu := self.competence;
+	};
+	
+	liste.descriptions += object Description {
+		name := "Débouchées";
+		contenu := self.debouche;
+	};
+	
+	var responsableParcours := object Description {
+		name := "Responsable parcours";
+		contenu := "";
+	};
+	
+	self.responsableParcours -> forEach(intervenant){
+		responsableParcours.elements += object Paragraphe{
+			name := intervenant.name + " : " + intervenant.mail;
+		};
+	};
+	
+	
+	self.semestres -> forEach(semestre){
+		var element := object Description {
+			name := "Semestre "+ semestre.name.toString();
+			contenu := "Le semestre débutent le "+semestre.dateDebut + " et termine le "+semestre.dateFin;
+		};
+		if(semestre.ueFacultatives -> notEmpty()){
+			element.elements+= object Paragraphe {
+				name := "Voici les UES facultatives du semestre :"
+			};
+			semestre.ueFacultatives -> forEach(ueFacultative){
+				element.elements += object Lien {
+					name := ueFacultative.name;
+					adresse := ueFacultative.name+".html";
+					couleur := "warning";
+				}
+			}
+		};
+		element.elements+= object Paragraphe {
+				name := "Voici les UES obligatoires du semestre :"
+			};
+			semestre.ueObligatoires -> forEach(ueObligatoire){
+				element.elements += object Lien {
+					name := ueObligatoire.name;
+					adresse := ueObligatoire.name+".html";
+					couleur := "warning";
+			};
+		};
+		
+		semestre.ueFacultatives -> map ue2page(siteI);
+		semestre.ueObligatoires -> map ue2page(siteI);
+		liste.descriptions+=element;
+	};
+	
+	liste.descriptions += responsableParcours;
+	
+	page.conteneurs += liste;
+	siteI.pages +=page;
+	
+};
+
+mapping portail::UE::ue2page(inout siteI : Site){
+	
+	var page := object Page{
+		name := self.name;
+	};
+	
+	page.conteneurs += object Entete {
+		niveau := 3;
+		text := self.name;
+	};
+	
+	var liste := object Liste {
+		text := "";
+	};
+	
+	if (self.description <> null){
+		liste.descriptions += object Description {
+			name := "Organisation";
+			contenu := self.description;
+		};
+	};
+	
+	liste.descriptions += object Description {
+		name := "Objectifs";
+		contenu := self.objectif;
+	};
+	
+	liste.descriptions += object Description {
+		name := "Compétences";
+		contenu := self.competence;
+	};
+	
+	liste.descriptions += object Description {
+		name := "Evaluation";
+		contenu := self.evaluation;
+	};
+	
+	liste.descriptions += object Description {
+		name := "Type enseignement";
+		contenu := self.typeEnseignement;
+	};
+	
+	liste.descriptions += object Description {
+		name := "Crédit";
+		contenu := self.Credit.toString();
+	};
+	
+	liste.descriptions += object Description {
+		name := "Nombre de cours magistrales";
+		contenu := self.heureCM.toString();
+	};
+	
+	liste.descriptions += object Description {
+		name := "Nombre de travaux dirigées";
+		contenu := self.heureTD.toString();
+	};
+	
+	liste.descriptions += object Description {
+		name := "Nombre de travaux pratiques ";
+		contenu := self.heureTP.toString();
+	};
+	
+	var responsables := object Description {
+		name := "Responsables de l'UE";
+		contenu := "" ;
+	};
+	
+	self.responsables -> forEach(intervenant){
+		responsables.elements +=object Paragraphe {
+			name := intervenant.name + " : " + intervenant.mail.toString();
+		}
+	};
+	
+	liste.descriptions += responsables;
+	
+	var intervenants := object Description {
+		name := "Intervenants de l'UE";
+		contenu := "" ;
+	};
+	
+	self.intervenants -> forEach(intervenant){
+		intervenants.elements +=object Paragraphe {
+			name := intervenant.name + " : " + intervenant.mail.toString();
+		}
+	};
+	
+	liste.descriptions += intervenants;
+	
+	var seances := object Description{
+			name := "Séances";
+			contenu := "Voici les différentes séances organisées durant le semestre pour cette UE :";
+	};
+		
+	self.seances -> forEach(seance){
+		switch{
+			case(seance.kind = portail::SeanceKind::CM){
+				seances.elements += object Paragraphe{
+					name := "Cours magistral : "+ seance.name	+ ", le " + seance.date +" de " + seance.heureDebut + " à " + seance.heureFin; 
+				};
+			};
+			case(seance.kind = portail::SeanceKind::TD){
+				seances.elements += object Paragraphe{
+					name := "Travaux dirigés : "+ seance.name	+ ", le " + seance.date +" de " + seance.heureDebut + " à " + seance.heureFin; 
+				};
+			};
+			case(seance.kind = portail::SeanceKind::TP){
+				seances.elements += object Paragraphe{
+					name := "Travaux pratiques : "+ seance.name	+ ", le " + seance.date +" de " + seance.heureDebut + " à " + seance.heureFin; 
+				};
+			};
+		};
+		if(seance.description <> seance.name){
+			seances.elements += object Paragraphe{
+				name := seance.description; 
+			};
+		};
+		seances.elements += object Paragraphe{
+				name := "Ressources du cours"; 
+		};
+		seance.ressources -> forEach(ressource){
+			seances.elements += object Lien{
+				name := ressource.name;
+				adresse := ressource.lien;
+				couleur := "default";
+			}
+		}
+	};
+	
+	liste.descriptions += seances;
+	
+	page.conteneurs += liste;
+	siteI.pages += page;
+}

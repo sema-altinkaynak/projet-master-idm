@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="portail" nsURI="http://www.example.org/portail" nsPrefix="portail">
+  <eClassifiers xsi:type="ecore:EClass" name="Formation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="credit" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parcours" lowerBound="1"
+        upperBound="-1" eType="#//Parcours" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="secretaires" lowerBound="1"
+        upperBound="-1" eType="#//Secretaire" eOpposite="#//Secretaire/formation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsablesFormation"
+        lowerBound="1" upperBound="-1" eType="#//Intervenant" eOpposite="#//Intervenant/responsableFormation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ues" lowerBound="1" upperBound="-1"
+        eType="#//UE" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Universite">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="employes" lowerBound="1"
+        upperBound="-1" eType="#//Employe" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="departements" lowerBound="1"
+        upperBound="-1" eType="#//Departement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Employe" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="telephone" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="bureau" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="mail" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="UE">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="objectif" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="competence" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="evaluation" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="programme" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="typeEnseignement" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="seances" lowerBound="1"
+        upperBound="-1" eType="#//Seance" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="intervenants" lowerBound="1"
+        upperBound="-1" eType="#//Intervenant" eOpposite="#//Intervenant/uesIntervenant"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsables" lowerBound="1"
+        upperBound="-1" eType="#//Intervenant" eOpposite="#//Intervenant/uesResponsable"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="Credit" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="heureCM" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="heureTD" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="heureTP" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Parcours">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="semestres" lowerBound="1"
+        upperBound="6" eType="#//Semestre" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsableParcours" lowerBound="1"
+        upperBound="-1" eType="#//Intervenant" eOpposite="#//Intervenant/responsableParcours"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="competence" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="debouche" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Semestre">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dateDebut" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="dateFin" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ueFacultatives" upperBound="-1"
+        eType="#//UE"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ueObligatoires" lowerBound="1"
+        upperBound="-1" eType="#//UE"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Seance">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="date" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="heureDebut" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="heureFin" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="kind" eType="#//SeanceKind"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="ressources" upperBound="-1"
+        eType="#//Ressource" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="SeanceKind">
+    <eLiterals name="CM"/>
+    <eLiterals name="TD" value="1"/>
+    <eLiterals name="TP" value="2"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Ressource">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="lien" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Intervenant" eSuperTypes="#//Employe">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="uesIntervenant" upperBound="-1"
+        eType="#//UE" eOpposite="#//UE/intervenants"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="specialite" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="uesResponsable" upperBound="-1"
+        eType="#//UE" eOpposite="#//UE/responsables"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsableFormation" eType="#//Formation"
+        eOpposite="#//Formation/responsablesFormation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsableParcours" eType="#//Parcours"
+        eOpposite="#//Parcours/responsableParcours"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsableDepartement"
+        eType="#//Departement" eOpposite="#//Departement/responsableDepartement"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Secretaire" eSuperTypes="#//Employe">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="formation" lowerBound="1"
+        eType="#//Formation" eOpposite="#//Formation/secretaires"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Departement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="description" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="formations" lowerBound="1"
+        upperBound="-1" eType="#//Formation" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="responsableDepartement"
+        lowerBound="1" eType="#//Intervenant" eOpposite="#//Intervenant/responsableDepartement"/>
+  </eClassifiers>
+</ecore:EPackage>

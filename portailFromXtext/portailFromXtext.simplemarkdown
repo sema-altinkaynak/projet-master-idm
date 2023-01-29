@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simplemarkdown:Document xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:simplemarkdown="http://www.example.org/simplemarkdown" name="Fil">
+  <contents xsi:type="simplemarkdown:Title" level="1">
+    <elements xsi:type="simplemarkdown:Text" text="Département Informatique"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Text" text="Portail du département Informatique"/>
+    <elements xsi:type="simplemarkdown:Text" text="Le FIL (Formations en Informatique de Lille) est le Département Informatique de la Faculté des Sciences et Technologies (FST) de l'Université de Lille. Membre d'une université performante qui propose un environnement très favorable à la poursuite d'études, le FIL réunit des conditions scientifiques et matérielles qui garantissent des études de qualité et une formation reconnue.&#xA;Que vous souhaitiez entreprendre ou poursuivre des études en informatique, des formations diplômantes aux différents niveaux universitaires sont proposées :&#xA;Licence Informatique, composée des parcours INFO et MIAGE&#xA;Licence Informatique-Mathématiques&#xA;Master Informatique, regroupant 6 parcours : E-Services, Machine Learning, Génie Logiciel, Internet des Objets, Cloud Computing, Réalité Virtuelle et Augmentée&#xA;Master MIAGE, et son parcours IPI-NT&#xA;Master Data Science&#xA;Master Bioinformatique, et son parcours MISO&#xA;Master MEÉF Informatique pour la préparation au CAPES NSI – Informatique&#xA;Ces formations sont accessibles en formation continue. Les masters sont accessibles en formation par alternance. Elles sont complétées par le Doctorat de l'Ecole doctorale Sciences Pour l'ingénieur (SPI) du Collège doctoral européen Lille Nord-de-France.&#xA;Chaque année, 750 étudiants fréquentent nos formations. Ils bénéficient d'enseignements combinant de manière équilibrée les aspects théoriques et fondamentaux de l'informatique aux aspects pratiques et appliquées de cette discipline, complétés par des enseignements transversaux de langue, de communication et de connaissance des milieux professionnels. Les masters offrent un large choix de parcours spécifiques. Les étudiants ont l'occasion de valider les compétences et connaissances acquises au cours des stages obligatoires qui viennent conclure la licence et le master.&#xA;Ces enseignements sont assurés par 55 enseignants du département et 25 intervenants issus du monde de l'entreprise. Ces enseignements sont soutenus par des personnels administratifs et techniques compétents, disponibles et performants. Hautement qualifiés, les enseignants-chercheurs sont membres de l'UMR Centre de Recherche en Informatique, Signal et Automatique de Lille (CRIStAL) ainsi que du centre de recherche Inria Lille - Nord Europe, garantissant une formation à et par la recherche et l'innovation."/>
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsable :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-stéphane varré"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="1">
+    <elements xsi:type="simplemarkdown:Text" text="Master Informatique"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Text" text="La mention informatique du master sciences et technologies de l'université de Lille a pour objectifs d'apporter aux étudiants des compétences de haut niveau, à la fois sur le plan théorique et pratique, dans le secteur des sciences de l'information et des technologies des communications.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Cette mention informatique est la poursuite d'études naturelle des étudiants ayant obtenu la licence mention informatique de l'université de Lille ou une licence à forte dominante informatique dans un autre établissement (ou tout autre diplôme de même niveau, sous réserve de la validation des études).&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Cette mention est un cycle de deux ans organisée autour d'une première année commune se dérivant en cinq parcours."/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsables Formation:"/>
+    <elements xsi:type="simplemarkdown:Text" text="Romain Rouvoy : Romain.Rouvoy@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text="Bureau 224, 2e étage du bâtiment M3 (extension)"/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :03 20 43 44 94"/>
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Secrétaires Formation:"/>
+    <elements xsi:type="simplemarkdown:Text" text="Pierre Rigolot : pierre.rigolot@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text="Bureau 17, RdC du bâtiment M3"/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :03 20 43 44 94"/>
+    <elements xsi:type="simplemarkdown:Text" text="Crédit : 120"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="2">
+    <elements xsi:type="simplemarkdown:Text" text="Génie logiciel"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Le parcours Génie Logiciel s’articule autour de la conception et du développement des logiciels agiles, c'est-à-dire des applications dont les fonctionnalités sont en parfaite adéquation avec les besoins des utilisateurs. Le parcours Génie Logiciel allie donc méthodes, concepts et technologies pour favoriser l’émergence d’applications innovantes sans jamais perdre de vue l’efficacité. Les domaines applicatifs étudiés s’étendent depuis l’informatique embarquée jusqu’aux grands systèmes répartis."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Compétences visées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="En lien étroit avec le monde de l’entreprise, de la recherche et de l’innovation, les étudiants suivant le parcours Génie Logiciel acquièrent des connaissances et des compétences applicables au développement et à la maintenance des systèmes d’informations modernes. De plus, la sensibilisation à la veille technologique favorise la transition vers l’intégration et le déploiement effectif de nouvelles technologies logicielles.&#xA;Les compétences acquises dans le parcours Génie Logiciel sont les suivantes : maîtriser les concepts et les outils du développement logiciel; être capable d’intervenir dans toutes les étapes du cycle de vie des applications; savoir adopter un processus de développement garantissant la production d’un logiciel performant et de qualité; savoir gérer efficacement une équipe de développement; maîtriser les technologies phares tout en sachant s’adapter à celles qui les remplaceront; être capable d’intégrer une équipe agile; connaître les grands principes de l’entrepreneuriat en informatique côté startup; savoir mettre en place une veille technologique."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Débouchées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Le parcours Génie Logiciel forme des informaticiens de niveau bac+5 spécialisés dans la conception, la mise en œuvre, le déploiement et la maintenance d’applications innovantes fortement connectées aux besoins des utilisateurs.&#xA;Nos diplômés travaillent dans des ESN (Entreprises de services du numérique), des DSI (Direction des systèmes d’information) de grands groupes, des PME, des laboratoires de recherche publics et privés, où ils occupent un emploi en CDI. Avec 99% d’insertion pour un délai de recherche d’emploi de 15 jours en moyenne, on peut parler de situation idéale.&#xA;La poursuite d'études en Thèse de Doctorat est possible à l'issue de cette formation."/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsable Parcours:"/>
+    <elements xsi:type="simplemarkdown:Text" text="Clément Quinton : clement.quinton@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text="Bureau 17, RdC du bâtiment M3"/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :03 20 43 44 94"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="3">
+    <elements xsi:type="simplemarkdown:Text" text="S1"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date de début :"/>
+    <elements xsi:type="simplemarkdown:Text" text="09/09/2021"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date de Fin :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15/12/2021"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="4">
+    <elements xsi:type="simplemarkdown:Text" text="UE obligatoires"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="5">
+    <elements xsi:type="simplemarkdown:Text" text="Ingénierie des Modèles"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Objectifs :"/>
+    <elements xsi:type="simplemarkdown:Text" text="L’objectif de cette UE est d’apprendre à concevoir des applications orientés objets de façon systématique et reproductible. &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Cette conception se base sur la réalisation de modèles UML représentant l’application à un haut niveau d’abstraction. &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;A la fin de cette UE, l’étudiant.e sera capable d’établir les fonctionnalités d’une application (poser le problème), de concevoir l’application (proposer et analyser des solutions), &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;et de réaliser l’application en suivant la solution proposée."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Programme :"/>
+    <elements xsi:type="simplemarkdown:Text" text="La conception d’une application orientés objets peut se décomposer en trois phases :"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Compétences :"/>
+    <elements xsi:type="simplemarkdown:Text" text="A la fin du cours, l’étudiant(e) devrait être capable de :&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Décrire les besoins de l’application&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Découvrir de façon systématique les fonctionnalités (cas d’utilisation - C.U.) d’une application à partir d’une description des besoins&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Établir un cahier des charges&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Comparer et proposer des solutions pour la conception de l’application : architecture logicielle, maquettage&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Gérer le changement&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Rédiger un document décrivant le problème et la solution de conception pour d’une application."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Evaluation :"/>
+    <elements xsi:type="simplemarkdown:Text" text="L’évaluation s’effectue suivant une procédure de contrôle continu. Il y a 3 rapports a rendre et une présentation finale.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Il n’y a pas d’examen final, la soutenance finale tient lieu d’examen.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Il y a un examen de rattrapage.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Un sujet de projet est donné en début de semestre. Le projet consiste a analyser et concevoir une application d’après le sujet. &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Chaque rapport correspond à une itération de cette analyse et conception."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cette unité se déroule au S1 de la FORMATION. Il s’agit d’une UE optionnelle de cette mention.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;  Volume horaire : 4h de cours, TD ou TP par semaine, pendant 12 semaines."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type d'enseignement :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Présentiel"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de cours magistrales :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux dirigées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux pratiques :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsables UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cedric Dumoulin : cedric.dumoulin@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Intervenant UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cedric Dumoulin : cedric.dumoulin@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Séances :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="6">
+    <elements xsi:type="simplemarkdown:Text" text="cours 1"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description:"/>
+    <elements xsi:type="simplemarkdown:Text" text="présentation&#xA;0.Presentation.pdf&#xA;Objectifs du cours&#xA;Plan du cours&#xA;Developement Challenge&#xA;01_DevelopementChallenge.pdf&#xA;Etapes pour la réalisation d’un logiciel&#xA;03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf&#xA;Les différentes etapes&#xA;Elicitation – construire les scenarios concrets&#xA;Analyse – trouver les CUs et les classes&#xA;Introduction à UML : CU et classes"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cours magistral"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date :"/>
+    <elements xsi:type="simplemarkdown:Text" text="11/09/2021"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Horaire:"/>
+    <elements xsi:type="simplemarkdown:Text" text="8H30 à 9h30"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Ressources :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Reference" reference="[0.Presentation.pdf]" url="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/0.Presentation.pdf" title="0.Presentation.pdf"/>
+  <contents xsi:type="simplemarkdown:Reference" reference="[01_DevelopementChallenge.pdf]" url="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/01_DevelopementChallenge.pdf" title="01_DevelopementChallenge.pdf"/>
+  <contents xsi:type="simplemarkdown:Reference" reference="[03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf]" url="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf" title="03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf"/>
+  <contents xsi:type="simplemarkdown:Title" level="4">
+    <elements xsi:type="simplemarkdown:Text" text="UE facultatives"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="5">
+    <elements xsi:type="simplemarkdown:Text" text="Technologies pour Applications Connectées "/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Objectifs :"/>
+    <elements xsi:type="simplemarkdown:Text" text="programmer sur mobile&#xA;concevoir et déployer des applications mobiles&#xA;programmer des échanges entre des applications mobiles (front) et des serveurs (back/API)&#xA;utiliser des librairies logicielles réputées dans le monde professionnel&#xA;utiliser des bonnes pratiques."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Programme :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Actuellement, les TDs se font sur Android en Java. Les étudiants ont la possibilité de faire l'évaluation en Java ou en Kotlin. D'autres technologies sont envisagées pour l'avenir (Flutter, React Native...) en fonction de l'évolution du marché.&#xA;&#x9;&#x9;&#x9;Programme :&#xA;&#x9;&#x9;&#x9;Prise en main de l’environnement de développement (Android Studio)&#xA;&#x9;&#x9;&#x9;Découverte des concepts fondamentaux (Layout, Activité, Fragments, Manifest, Permissions…)&#xA;&#x9;&#x9;&#x9;Approfondissement par la découverte et l’utilisation de libraires largement utilisées dans le milieu professionnel telles que RxJava, Retrofit, Glide, etc.&#xA;&#x9;&#x9;&#x9; Mise en pratique des concepts fondamentaux et des librairies&#xA;&#x9;&#x9;&#x9;Découverte de bonnes pratiques (architectures type MVP ou MVVM, tests, injection de dépendances…)&#xA;&#x9;&#x9;&#x9;"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Compétences :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Directes&#xA; Concevoir et mettre en œuvre en autonomie ou collaborativement, de manière efficace, robuste et maintenable, un logiciel répondant à une liste d’exigences établies;&#xA; Indirectes&#xA; Interaction homme-machine (IHM)&#xA; Réseau&#xA; Programmation sur mobile&#xA; Architectures logicielles&#xA; Bonnes pratiques dans le développement logiciel"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Evaluation :"/>
+    <elements xsi:type="simplemarkdown:Text" text=" L’évaluation repose sur une application à développer en autonomie et en binôme. La réalisation de cette application doit se faire au travers d’un dépôt Git dont l’évolution sera suivie et notée. La note finale se décomposera en deux parties :&#xA;note A : une partie consacrée à l’application (respect du cahier des charges, absence de bug, architecture, etc.),&#xA;note B : une partie consacrée à la documentation à fournir avec l’application, ainsi qu’à la méthodologie de travail (évolution dans le dépôt Git par exemple).&#xA;Les modalités détaillées seront fournies en début d'année lors des enseignements.&#xA;La note finale sur 20 (N) est calculée comme suit :&#xA;N = (3 * note A + note B) / 4&#x9;&#xA;Si l'unité n'est pas acquise, la note de seconde chance (S) est calculée comme suit :&#x9;&#x9;&#x9;&#xA;S = min (10, note A)"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description :"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type d'enseignement :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Présentiel"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de cours magistrales :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux dirigées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux pratiques :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsables UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Intervenant UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cedric Dumoulin : cedric.dumoulin@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Séances :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="6">
+    <elements xsi:type="simplemarkdown:Text" text="Cours 1"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description:"/>
+    <elements xsi:type="simplemarkdown:Text" text="Que va-t-on voir dans cette UE"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cours magistral"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date :"/>
+    <elements xsi:type="simplemarkdown:Text" text="11/09/2021"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Horaire:"/>
+    <elements xsi:type="simplemarkdown:Text" text="13H30 à 14h30"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Ressources :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Reference" reference="[Que va-t-on voir dans cette UE]" url="http://www.fil.univ-lille1.fr/~tarby/portailFIL/ue-M1S1-TAC/documents/2021-2022/cours/1.contenu_UE.pdf" title="Que va-t-on voir dans cette UE"/>
+  <contents xsi:type="simplemarkdown:Title" level="2">
+    <elements xsi:type="simplemarkdown:Text" text="e-services"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Le parcours E-Services s’articule autour de la conception et du développement des services numériques, c’est-à-dire des services accessibles au travers des moyens de communication numérique - notamment l’Internet – mais également au travers de tous les équipements liés à l’économie digitale : smartphones, tablettes, interfaces multi-touch, interfaces vocales, etc.&#xA;Le parcours E-Services repose sur le développement de projets complets (de la conception à la réalisation et la promotion), en se concentrant sur les aspect utilisateurs, usages, IHM, UX, ainsi que des travaux autour de l'innovation et du rapport à la technologie."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Compétences visées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="En étroite liaison avec les mondes de l’entreprise, de la recherche et de l’innovation, le parcours E-Services a pour objectif de donner des connaissances et des compétences opérationnelles en matière de conception de services numériques, d’interfaces homme-machine, de gestion de projets, et de design applicatif. Il contient un ensemble cohérent de matières et de technologies à apprendre, à intégrer, mais aussi à expérimenter et à découvrir, pour être capable d’analyser le besoin des clients et proposer des solutions numériques innovantes, tout en étudiant leurs usages potentiels pour proposer la meilleure solution, principalement autour de l’expérience utilisateur (UX).&#xA;Les enseignements de ce parcours mettent l’accent sur l’ergonomie et la conception graphique, la créativité, le génie logiciel, la gestion de projets, les infrastructures front et back (Java EE, .NET, etc.), et les langages et technologies pour le Web et pour les applications connectées (JavaScript, HTML5, Android, frameworks web, etc.)."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Débouchées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Nos diplômés travaillent dans des entreprises de services du numérique (ESN), de transformation numérique, de technologie et d'ingénierie, de services d'infogérance, des PME/TPE ou des start-ups.&#xA;Les métiers sont variés : maîtrise d'ouvrage, conception de produit, développement de solutions applicatives web et mobiles, marketing digital… et dans des domaines tels que santé, énergie, retail, transports, industrie, aérospatiale, media, banque, assurance, etc. Nos diplômés occupent le plus souvent des emplois de cadre (Bac+5) en CDI, dans les 15 jours qui suivent la fin de leurs études (+99% d’insertion).&#xA;&#x9;&#x9;&#x9;La poursuite en Thèse de Doctorat en Informatique est possible à l'issue de ce parcours."/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsable Parcours:"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="3">
+    <elements xsi:type="simplemarkdown:Text" text="S1"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date de début :"/>
+    <elements xsi:type="simplemarkdown:Text" text="09/09/2021"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date de Fin :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15/12/2021"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="4">
+    <elements xsi:type="simplemarkdown:Text" text="UE obligatoires"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="5">
+    <elements xsi:type="simplemarkdown:Text" text="Technologies pour Applications Connectées "/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Objectifs :"/>
+    <elements xsi:type="simplemarkdown:Text" text="programmer sur mobile&#xA;concevoir et déployer des applications mobiles&#xA;programmer des échanges entre des applications mobiles (front) et des serveurs (back/API)&#xA;utiliser des librairies logicielles réputées dans le monde professionnel&#xA;utiliser des bonnes pratiques."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Programme :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Actuellement, les TDs se font sur Android en Java. Les étudiants ont la possibilité de faire l'évaluation en Java ou en Kotlin. D'autres technologies sont envisagées pour l'avenir (Flutter, React Native...) en fonction de l'évolution du marché.&#xA;&#x9;&#x9;&#x9;Programme :&#xA;&#x9;&#x9;&#x9;Prise en main de l’environnement de développement (Android Studio)&#xA;&#x9;&#x9;&#x9;Découverte des concepts fondamentaux (Layout, Activité, Fragments, Manifest, Permissions…)&#xA;&#x9;&#x9;&#x9;Approfondissement par la découverte et l’utilisation de libraires largement utilisées dans le milieu professionnel telles que RxJava, Retrofit, Glide, etc.&#xA;&#x9;&#x9;&#x9; Mise en pratique des concepts fondamentaux et des librairies&#xA;&#x9;&#x9;&#x9;Découverte de bonnes pratiques (architectures type MVP ou MVVM, tests, injection de dépendances…)&#xA;&#x9;&#x9;&#x9;"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Compétences :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Directes&#xA; Concevoir et mettre en œuvre en autonomie ou collaborativement, de manière efficace, robuste et maintenable, un logiciel répondant à une liste d’exigences établies;&#xA; Indirectes&#xA; Interaction homme-machine (IHM)&#xA; Réseau&#xA; Programmation sur mobile&#xA; Architectures logicielles&#xA; Bonnes pratiques dans le développement logiciel"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Evaluation :"/>
+    <elements xsi:type="simplemarkdown:Text" text=" L’évaluation repose sur une application à développer en autonomie et en binôme. La réalisation de cette application doit se faire au travers d’un dépôt Git dont l’évolution sera suivie et notée. La note finale se décomposera en deux parties :&#xA;note A : une partie consacrée à l’application (respect du cahier des charges, absence de bug, architecture, etc.),&#xA;note B : une partie consacrée à la documentation à fournir avec l’application, ainsi qu’à la méthodologie de travail (évolution dans le dépôt Git par exemple).&#xA;Les modalités détaillées seront fournies en début d'année lors des enseignements.&#xA;La note finale sur 20 (N) est calculée comme suit :&#xA;N = (3 * note A + note B) / 4&#x9;&#xA;Si l'unité n'est pas acquise, la note de seconde chance (S) est calculée comme suit :&#x9;&#x9;&#x9;&#xA;S = min (10, note A)"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description :"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type d'enseignement :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Présentiel"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de cours magistrales :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux dirigées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux pratiques :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsables UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Intervenant UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cedric Dumoulin : cedric.dumoulin@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Séances :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="6">
+    <elements xsi:type="simplemarkdown:Text" text="Cours 1"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description:"/>
+    <elements xsi:type="simplemarkdown:Text" text="Que va-t-on voir dans cette UE"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cours magistral"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date :"/>
+    <elements xsi:type="simplemarkdown:Text" text="11/09/2021"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Horaire:"/>
+    <elements xsi:type="simplemarkdown:Text" text="13H30 à 14h30"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Ressources :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Reference" reference="[Que va-t-on voir dans cette UE]" url="http://www.fil.univ-lille1.fr/~tarby/portailFIL/ue-M1S1-TAC/documents/2021-2022/cours/1.contenu_UE.pdf" title="Que va-t-on voir dans cette UE"/>
+  <contents xsi:type="simplemarkdown:Title" level="4">
+    <elements xsi:type="simplemarkdown:Text" text="UE facultatives"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="5">
+    <elements xsi:type="simplemarkdown:Text" text="Ingénierie des Modèles"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Objectifs :"/>
+    <elements xsi:type="simplemarkdown:Text" text="L’objectif de cette UE est d’apprendre à concevoir des applications orientés objets de façon systématique et reproductible. &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Cette conception se base sur la réalisation de modèles UML représentant l’application à un haut niveau d’abstraction. &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;A la fin de cette UE, l’étudiant.e sera capable d’établir les fonctionnalités d’une application (poser le problème), de concevoir l’application (proposer et analyser des solutions), &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;et de réaliser l’application en suivant la solution proposée."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Programme :"/>
+    <elements xsi:type="simplemarkdown:Text" text="La conception d’une application orientés objets peut se décomposer en trois phases :"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Compétences :"/>
+    <elements xsi:type="simplemarkdown:Text" text="A la fin du cours, l’étudiant(e) devrait être capable de :&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Décrire les besoins de l’application&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Découvrir de façon systématique les fonctionnalités (cas d’utilisation - C.U.) d’une application à partir d’une description des besoins&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Établir un cahier des charges&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Comparer et proposer des solutions pour la conception de l’application : architecture logicielle, maquettage&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Gérer le changement&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Rédiger un document décrivant le problème et la solution de conception pour d’une application."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Evaluation :"/>
+    <elements xsi:type="simplemarkdown:Text" text="L’évaluation s’effectue suivant une procédure de contrôle continu. Il y a 3 rapports a rendre et une présentation finale.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Il n’y a pas d’examen final, la soutenance finale tient lieu d’examen.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Il y a un examen de rattrapage.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Un sujet de projet est donné en début de semestre. Le projet consiste a analyser et concevoir une application d’après le sujet. &#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;Chaque rapport correspond à une itération de cette analyse et conception."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cette unité se déroule au S1 de la FORMATION. Il s’agit d’une UE optionnelle de cette mention.&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;  Volume horaire : 4h de cours, TD ou TP par semaine, pendant 12 semaines."/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type d'enseignement :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Présentiel"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de cours magistrales :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux dirigées :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Nombre de travaux pratiques :"/>
+    <elements xsi:type="simplemarkdown:Text" text="15"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Responsables UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cedric Dumoulin : cedric.dumoulin@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Intervenant UE :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cedric Dumoulin : cedric.dumoulin@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr"/>
+    <elements xsi:type="simplemarkdown:Text" text=""/>
+    <elements xsi:type="simplemarkdown:Text" text="Telephone :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:StrongEmphasis" text="Séances :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Title" level="6">
+    <elements xsi:type="simplemarkdown:Text" text="cours 1"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Description:"/>
+    <elements xsi:type="simplemarkdown:Text" text="présentation&#xA;0.Presentation.pdf&#xA;Objectifs du cours&#xA;Plan du cours&#xA;Developement Challenge&#xA;01_DevelopementChallenge.pdf&#xA;Etapes pour la réalisation d’un logiciel&#xA;03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf&#xA;Les différentes etapes&#xA;Elicitation – construire les scenarios concrets&#xA;Analyse – trouver les CUs et les classes&#xA;Introduction à UML : CU et classes"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Type :"/>
+    <elements xsi:type="simplemarkdown:Text" text="Cours magistral"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Date :"/>
+    <elements xsi:type="simplemarkdown:Text" text="11/09/2021"/>
+    <elements xsi:type="simplemarkdown:Emphasis" text="Horaire:"/>
+    <elements xsi:type="simplemarkdown:Text" text="8H30 à 9h30"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Paragraph">
+    <elements xsi:type="simplemarkdown:Emphasis" text="Ressources :"/>
+  </contents>
+  <contents xsi:type="simplemarkdown:Reference" reference="[0.Presentation.pdf]" url="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/0.Presentation.pdf" title="0.Presentation.pdf"/>
+  <contents xsi:type="simplemarkdown:Reference" reference="[01_DevelopementChallenge.pdf]" url="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/01_DevelopementChallenge.pdf" title="01_DevelopementChallenge.pdf"/>
+  <contents xsi:type="simplemarkdown:Reference" reference="[03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf]" url="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf" title="03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf"/>
+</simplemarkdown:Document>

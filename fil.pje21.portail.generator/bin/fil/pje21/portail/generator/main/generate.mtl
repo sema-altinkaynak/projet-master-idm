@@ -1,0 +1,85 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generate.
+ */]
+[module generate('http://www.example.org/simplemarkdown')]
+
+
+[**
+ * The documentation of the template generateElement.
+ * @param aBlock
+ */]
+[template public generateElement(aDocument : Document)]
+[comment @main/]
+[file (aDocument.name+'.md', false, 'UTF-8')]
+
+[for ( block : Block | aDocument.contents) ]
+[block.generateBlock()/]
+[/for]
+[/file]
+
+[/template]
+
+
+[template public generateBlock(aBlock: Block)]
+
+
+[/template]
+
+
+[template public generateBlock(aTitle : Title)]
+
+[if  (aTitle.level=1) ] 
+# [aTitle.elements.generateText()/]
+[elseif  (aTitle.level=2) ]
+## [aTitle.elements.generateText()/]
+[elseif  (aTitle.level=3) ]
+### [aTitle.elements.generateText()/]
+[elseif  (aTitle.level=4) ]
+#### [aTitle.elements.generateText()/]
+[elseif  (aTitle.level=5) ]
+##### [aTitle.elements.generateText()/]
+[elseif  (aTitle.level=6) ]
+###### [aTitle.elements.generateText()/]
+[/if] 
+
+
+[/template]
+
+[template public generateBlock(aParagraph : Paragraph)]
+
+[for ( block : TextElement| aParagraph.elements) ]
+[block.generateText()/]
+[/for]
+
+
+[/template]
+
+[template public generateBlock(aReference: Reference)]
+[aReference.reference/]([aReference.url/])
+
+[/template]
+
+[template public generateText(aTextElement: TextElement)]
+
+[/template]
+
+
+[template public generateText(aTextElement: Text)]
+[aTextElement.text/]
+
+[/template]
+
+[template public generateText(aTextElement: StrongEmphasis)]
+**[aTextElement.text/]**
+
+[/template]
+
+[template public generateText(aTextElement: Emphasis)]
+
+[if (aTextElement.text->size() <> 0)]
+*[aTextElement.text/]*
+[/if]
+
+
+[/template]

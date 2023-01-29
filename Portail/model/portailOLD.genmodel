@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/Portail/src-gen" creationIcons="false" editDirectory="/Portail.edit/src-gen"
+    editorDirectory="/Portail.editor/src-gen" modelPluginID="Portail" modelName="Portail"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>portail.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="Portail" disposableProviderFactory="true" ecorePackage="portail.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="portail.ecore#//SeanceKind">
+      <genEnumLiterals ecoreEnumLiteral="portail.ecore#//SeanceKind/CM"/>
+      <genEnumLiterals ecoreEnumLiteral="portail.ecore#//SeanceKind/TD"/>
+      <genEnumLiterals ecoreEnumLiteral="portail.ecore#//SeanceKind/TP"/>
+    </genEnums>
+    <genClasses ecoreClass="portail.ecore#//Formation">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Formation/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Formation/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Formation/credit"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//Formation/parcours"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Formation/secretaires"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Formation/responsablesFormation"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//Formation/ues"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Universite">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Universite/name"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//Universite/employes"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//Universite/departements"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Employe">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Employe/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Employe/telephone"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Employe/bureau"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Employe/mail"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//UE">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/objectif"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/competence"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/evaluation"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/programme"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/typeEnseignement"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//UE/seances"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//UE/intervenants"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//UE/responsables"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/Credit"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/heureCM"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/heureTD"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//UE/heureTP"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Parcours">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Parcours/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Parcours/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//Parcours/semestres"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Parcours/responsableParcours"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Parcours/competence"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Parcours/debouche"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Semestre">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Semestre/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Semestre/dateDebut"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Semestre/dateFin"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Semestre/ueFacultatives"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Semestre/ueObligatoires"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Seance">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Seance/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Seance/date"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Seance/heureDebut"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Seance/heureFin"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Seance/description"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Seance/kind"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//Seance/ressources"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Ressource">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Ressource/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Ressource/lien"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Intervenant">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Intervenant/uesIntervenant"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Intervenant/specialite"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Intervenant/uesResponsable"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Intervenant/responsableFormation"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Intervenant/responsableParcours"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Intervenant/responsableDepartement"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Secretaire">
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Secretaire/formation"/>
+    </genClasses>
+    <genClasses ecoreClass="portail.ecore#//Departement">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Departement/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute portail.ecore#//Departement/description"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference portail.ecore#//Departement/formations"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference portail.ecore#//Departement/responsableDepartement"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

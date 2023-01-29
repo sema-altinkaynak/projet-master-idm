@@ -1,0 +1,138 @@
+[comment encoding = UTF-8 /]
+[**
+ * The documentation of the module generate.
+ */]
+[module generate('http://www.example.org/htmlProject')]
+
+
+[**
+ * The documentation of the template generateElement.
+ * @param aSite
+ */]
+[template public generateElement(aSite : Site)]
+[comment @main/]
+
+ [for (page : Page | aSite.pages)]
+ 	[page.generatePage()/]
+ [/for]
+
+[/template]
+
+[**
+ * aPage.eContainer(Site).name 
+*/]
+[template public generatePage( aPage : Page )]
+
+[file ( aPage.name + '.html', false, 'UTF-8')]
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>[aPage.name/]</title>
+		<meta charset='UTF-8'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://adminlte.io/themes/dev/AdminLTE/plugins/fontawesome-free/css/all.min.css">
+        <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+        <link rel="stylesheet" href="https://adminlte.io/themes/dev/AdminLTE/dist/css/adminlte.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+                
+	</head>
+<body>
+
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	
+	<div class="alert alert-danger alert-dismissible" style="margin: 0px;">
+             <h2>Portail pédagogique du Fil</h2>
+			[if not (aPage.name = 'index')]
+				<h5>  [aPage.name/]</h5> 
+			[/if]
+	</div>
+
+	
+<div class="card card-default" style="padding: 20px;">
+[if not (aPage.name = 'index')]
+	<div class="text-center">
+                <button type="button" class="btn btn-secondary" onclick="history.back()">Retour</button>
+    </div>
+[/if]
+	
+    <!-- /.card-header -->
+        <div class="container">
+            <div class="row justify-content-center" >
+            	<div class="col-lg-12">
+            		<div class="card-body" style="margin: 0px;">
+              			<div class="callout callout-danger">
+	[for (conteneur : Conteneur | aPage.conteneurs)]
+		[conteneur.generateConteneur()/]
+	[/for]
+</div>
+	</div>
+		</div>
+			</div>
+				</div>
+					</div>
+	
+</body>
+</html>
+
+[/file]
+
+[/template]
+
+
+
+[template public generateConteneur(aConteneur : Conteneur)]
+	
+[/template]
+
+
+
+[template public generateConteneur(aEntete : Entete)]
+	<h[aEntete.niveau/] class="[aEntete.description/]">[aEntete.text/]</h[aEntete.niveau/]>
+[/template]
+
+
+
+[template public generateConteneur(aListe : Liste)]
+	<br>
+	<dl class="dl-horizontal">
+		[for (description : Description | aListe.descriptions)]
+			[description.generateDescription()/]
+		[/for]
+	</dl>
+	<br>
+[/template]
+
+[template public generateDescription(aDescription : Description )]
+	<dt>[aDescription.name/]</dt>
+	<dd>[aDescription.contenu/] 
+		[if not (aDescription.contenu='')]
+			<br>
+		[/if]
+
+		[for (element : Element | aDescription.elements)]
+			[element.generateElement()/]
+		[/for]
+
+
+</dd>
+	<br>
+[/template]
+
+
+[template public generateElement(aElement : Element)]
+	
+
+[/template]
+
+[template public generateElement(aLien : Lien)]
+	
+	<a class="btn btn-[aLien.couleur/]" role="button" aria-disabled="true" href="[aLien.adresse/]" style="margin-bottom:5px">[aLien.name/]</a>
+
+[/template]
+
+[template public generateElement(aParagraphe : Paragraphe)]
+	<p>[aParagraphe.name/]</p>
+
+[/template]

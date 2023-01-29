@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<htmlProject:Site xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:htmlProject="http://www.example.org/htmlProject" name="Fil" auteur="Université de Lille">
+  <pages name="index">
+    <conteneurs xsi:type="htmlProject:Entete" text="Présentation du portail de l'université de Lille " niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Présentation" contenu="Bienvenue au portail de l'université de Lille"/>
+      <descriptions name="Formation" contenu="Voici les différents département de notre université. Pour plus d'informations sur le contenu des formations, veuillez cliquez sur l'un des liens ci-dessous :">
+        <elements xsi:type="htmlProject:Lien" name="Département Informatique" adresse="Informatique.html" couleur="danger"/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+  <pages name="Informatique">
+    <conteneurs xsi:type="htmlProject:Entete" text="Présentation du portail pedagogique du Informatique" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Présentation" contenu="Bienvenu au portail pédagogique du Informatique Le FIL (Formations en Informatique de Lille) est le Département Informatique de la Faculté des Sciences et Technologies (FST) de l'Université de Lille. Membre d'une université performante qui propose un environnement très favorable à la poursuite d'études, le FIL réunit des conditions scientifiques et matérielles qui garantissent des études de qualité et une formation reconnue.&#xA;&#xA;Que vous souhaitiez entreprendre ou poursuivre des études en informatique, des formations diplômantes aux différents niveaux universitaires sont proposées :&#xA;&#xA;Licence Informatique, composée des parcours INFO et MIAGE&#xA;Licence Informatique-Mathématiques&#xA;Master Informatique, regroupant 6 parcours : E-Services, Machine Learning, Génie Logiciel, Internet des Objets, Cloud Computing, Réalité Virtuelle et Augmentée&#xA;Master MIAGE, et son parcours IPI-NT&#xA;Master Data Science&#xA;Master Bioinformatique, et son parcours MISO&#xA;Master MEÉF Informatique pour la préparation au CAPES NSI – Informatique&#xA;Ces formations sont accessibles en formation continue. Les masters sont accessibles en formation par alternance. Elles sont complétées par le Doctorat de l'Ecole doctorale Sciences Pour l'ingénieur (SPI) du Collège doctoral européen Lille Nord-de-France. Chaque année, 750 étudiants fréquentent nos formations. Ils bénéficient d'enseignements combinant de manière équilibrée les aspects théoriques et fondamentaux de l'informatique aux aspects pratiques et appliquées de cette discipline, complétés par des enseignements transversaux de langue, de communication et de connaissance des milieux professionnels. Les masters offrent un large choix de parcours spécifiques. Les étudiants ont l'occasion de valider les compétences et connaissances acquises au cours des stages obligatoires qui viennent conclure la licence et le master.&#xA;&#xA;Ces enseignements sont assurés par 55 enseignants du département et 25 intervenants issus du monde de l'entreprise. Ces enseignements sont soutenus par des personnels administratifs et techniques compétents, disponibles et performants. Hautement qualifiés, les enseignants-chercheurs sont membres de l'UMR Centre de Recherche en Informatique, Signal et Automatique de Lille (CRIStAL) ainsi que du centre de recherche Inria Lille - Nord Europe, garantissant une formation à et par la recherche et l'innovation."/>
+      <descriptions name="Formation" contenu="Voici les différentes formations du département">
+        <elements xsi:type="htmlProject:Lien" name="Master Informatique" adresse="Master Informatique.html" couleur="primary"/>
+        <elements xsi:type="htmlProject:Lien" name="Master Miage" adresse="Master Miage.html" couleur="primary"/>
+      </descriptions>
+      <descriptions name="Directeur des études " contenu="jean-stéphane varré"/>
+    </conteneurs>
+  </pages>
+  <pages name="Master Informatique">
+    <conteneurs xsi:type="htmlProject:Entete" text="Master Informatique" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Présentation" contenu="La mention informatique du master sciences et technologies de l'université de Lille a pour objectifs d'apporter aux étudiants des compétences de haut niveau, à la fois sur le plan théorique et pratique, dans le secteur des sciences de l'information et des technologies des communications.&#xA;&#xA;Cette mention informatique est la poursuite d'études naturelle des étudiants ayant obtenu la licence mention informatique de l'université de Lille ou une licence à forte dominante informatique dans un autre établissement (ou tout autre diplôme de même niveau, sous réserve de la validation des études).&#xA;&#xA;Cette mention est un cycle de deux ans organisée autour d'une première année commune se dérivant en cinq parcours.&#xA;&#xA;"/>
+      <descriptions name="Responsables de la formation" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Romain Rouvoy : romain.rouvoy@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Secrétaires de la formation" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Pierre rigolot : pierre.rigolot@univ-lille.fr "/>
+      </descriptions>
+      <descriptions name="Crédit" contenu="120 ECTS"/>
+      <descriptions name="Parcours du master " contenu="Le Master Informatique posséde différent parcours, voici les liens permettant d'avoir accés à leurs informations :">
+        <elements xsi:type="htmlProject:Lien" name="Génie logiciel" adresse="Génie logiciel.html" couleur="danger"/>
+        <elements xsi:type="htmlProject:Lien" name="E-services" adresse="E-services.html" couleur="danger"/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+  <pages name="Deploiement et Adminstration du Cloud">
+    <conteneurs xsi:type="htmlProject:Entete" text="Deploiement et Adminstration du Cloud" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="L’unité “Deploiement et Administration du Cloud” vise à acquérir les fondamentaux liés à l’administration du Cloud, à la gestion des infrastructures et au déploiement d’applications scalables : configurer un serveur ou un ensemble de serveurs dans le cloud, mettre en place une pile logicielle efficace, deployer des applications, organiser le suivi (monitoring) des infrastructures et des systèmes administrés."/>
+      <descriptions name="Compétences" contenu="Savoir lire de la documentation en anglais&#xA;Savoir apprendre des ses erreurs&#xA;Être en mesure de rédigier des rapports technique bref&#xA;Savoir communiquer"/>
+      <descriptions name="Evaluation" contenu="Contrôle continue"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Giuseppe Lipari : Giuseppe.Lipari@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Giuseppe Lipari : Giuseppe.Lipari@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Sciences des données">
+    <conteneurs xsi:type="htmlProject:Entete" text="Sciences des données" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="L’objectif principal de cette UE est de former les étudiants aux méthodes modernes d’apprentissage qui sont aujourd’hui au coeur d’un grand nombre de systèmes utilisés quotidiennement (les moteurs de recherche, les services de recommandation, les appareils photo détectant les visages, les téléphones portables apprenant des profils, les services vocaux reconnaissant la parole, .). Ainsi, les étudiants auront les compétences pour comprendre le monde numérique qui les entoure et l’utilisation qui peut être faite de données (données laissées sur le web, collectées par les opérateurs réseau ou de téléphonie etc.). Ils auront aussi les bases pour concevoir eux-mêmes des systèmes traitant automatiquement des données, pour constituer des bases de données pouvant être utilisées par un système d’apprentissage (comprenant l’importance d’une collecte et d’une annotation de qualité et la valeur de ces données). On s’attachera aussi à comprendre les qualités et les défauts de différents algorithmes afin d’associer le bon algorithme (et ses paramètres) à un problème donné. Un autre objectif sera de permettre aux étudiants de se forger un esprit critique quant aux résultats produits par les systèmes d’apprentissage (notion de risque, de validation croisée, de sur-apprentissage, de biais etc.). Toutes ces notions seront assimilées très pratiquement sur des cas concrets, en s’appuyant sur les bibliothèques logicielles les plus performantes du moment."/>
+      <descriptions name="Compétences" contenu="identifier un problème d’apprentissage automatique et distinguer un problème supervisé (classification et régression) d’un problème non supervisé.&#xA;de choisir un algorithme adéquat à résoudre ce problème et de savoir l’utiliser&#xA;de créer un jeu d’exemples utilisables par l’algorithme&#xA;de savoir évaluer le résultat fourni par l’algorithme&#xA;de mettre en oeuvre toutes ces notions en pratique"/>
+      <descriptions name="Evaluation" contenu="Contrôle continu"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Marie-Émilie Voge  : Marie-Emilie.voge@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Marie-Émilie Voge  : Marie-Emilie.voge@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Image">
+    <conteneurs xsi:type="htmlProject:Entete" text="Image" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du Master Informatique. Il s'agit d'une UE obligatoire pour le parcours RVA (optionnelle pour les autres parcours).&#xA;&#xA;Volume horaire : 1h00 de cours, 3h00 TD Machine, pendant 12 semaines."/>
+      <descriptions name="Objectifs" contenu="L’unité “Image” vise à acquérir les fondamentaux liés au développement d’applications 3D, à la capture des images et leur traitement informatique : configurer un dispositif d’acquisition d’images, implémenter des algorithmes de traitement des images, analyser les résultats obtenus, réaliser une application 3D avec un environnement de développement haut niveau."/>
+      <descriptions name="Compétences" contenu="savoir paramétrer l’acquisition d’une image&#xA;maîtriser les transformations de base des niveaux d’une image&#xA;savoir implémenter une détection des contours dans une image&#xA;savoir réaliser une application 3D avec un environnement de développement haut niveau&#xA;"/>
+      <descriptions name="Evaluation" contenu="L'évaluation s'effectue suivant une procédure de contrôle continu.&#xA;&#xA;"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Fabrice Aubert : Fabrice.Aubert@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Benjamin Mathon : Benjamin.Mathon@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Fabrice Aubert : Fabrice.Aubert@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Benjamin Mathon : Benjamin.Mathon@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Technologies pour Applications Connectées">
+    <conteneurs xsi:type="htmlProject:Entete" text="Technologies pour Applications Connectées" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu=" programmer sur mobile&#xA;concevoir et déployer des applications mobiles&#xA;programmer des échanges entre des applications mobiles (front) et des serveurs (back/API)&#xA;utiliser des librairies logicielles réputées dans le monde professionnel&#xA;utiliser des bonnes pratiques."/>
+      <descriptions name="Compétences" contenu="Directes&#xA; Concevoir et mettre en œuvre en autonomie ou collaborativement, de manière efficace, robuste et maintenable, un logiciel répondant à une liste d’exigences établies;&#xA; Indirectes&#xA; Interaction homme-machine (IHM)&#xA; Réseau&#xA; Programmation sur mobile&#xA; Architectures logicielles&#xA; Bonnes pratiques dans le développement logiciel"/>
+      <descriptions name="Evaluation" contenu="L’évaluation repose sur une application à développer en autonomie et en binôme. La réalisation de cette application doit se faire au travers d’un dépôt Git dont l’évolution sera suivie et notée. La note finale se décomposera en deux parties :&#xA;&#xA;note A : une partie consacrée à l’application (respect du cahier des charges, absence de bug, architecture, etc.),&#xA;note B : une partie consacrée à la documentation à fournir avec l’application, ainsi qu’à la méthodologie de travail (évolution dans le dépôt Git par exemple).&#xA;Les modalités détaillées seront fournies en début d'année lors des enseignements.&#xA;&#xA;La note finale sur 20 (N) est calculée comme suit :&#xA;&#xA;N = (3 * note A + note B) / 4&#xA;&#xA; &#xA;&#xA;Si l'unité n'est pas acquise, la note de seconde chance (S) est calculée comme suit :&#xA;&#xA;S = min (10, note A)&#xA;&#xA;"/>
+      <descriptions name="Type enseignement" contenu="Obligatoire -- Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="15"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="15"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="15"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Jean-Claude Tarby : Jean-Claude.tarby@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Jean-Claude Tarby : Jean-Claude.tarby@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Cedric Dumoulin : Cedric.dumoulin@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :">
+        <elements xsi:type="htmlProject:Paragraphe" name="Cours magistral : Que va-t-on voir dans cette UE, le 09/02/2021 de 13h30 à 14H30"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Ressources du cours"/>
+        <elements xsi:type="htmlProject:Lien" name="Que va-t-on voir dans cette UE " adresse="http://www.fil.univ-lille1.fr/~tarby/portailFIL/ue-M1S1-TAC/documents/2021-2022/cours/1.contenu_UE.pdf" couleur="default"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Travaux dirigés : Prise en main de l'environnement , le 15/09/2022 de 14h45 à 17h45"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Ressources du cours"/>
+        <elements xsi:type="htmlProject:Lien" name="Prise en main de l'environnement " adresse="http://www.fil.univ-lille1.fr/~tarby/portailFIL/ue-M1S1-TAC/documents/2021-2022/td/1.prise_en_main.pdf" couleur="default"/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+  <pages name="Anglais">
+    <conteneurs xsi:type="htmlProject:Entete" text="Anglais" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs"/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu=""/>
+      <descriptions name="Intervenants de l'UE" contenu=""/>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Initiation à la recherche">
+    <conteneurs xsi:type="htmlProject:Entete" text="Initiation à la recherche" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master Informatique. Il s'agit d'une UE obligatoire de cette mention."/>
+      <descriptions name="Objectifs" contenu="Le module d’IIR en 1e année de Master vise à vous sensibiliser aux problématiques, activités et méthodologies mises en œuvre de la R&amp;D en Informatique. Ce module se compose de cours, de TD/TP et d’activités—parmi lesquelles la journée RIC et le mémoire de Master que vous devez rédiger (clé module tpu29m pour plus de détails sur ce mémoire)."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation" contenu="Projet analyse articles scientifiques"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Xavier Le Pallec : Xavier.Le-Pallec@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Xavier Le Pallec : Xavier.Le-Pallec@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Sophie Tison : Sophie.tison@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Projet encadré">
+    <conteneurs xsi:type="htmlProject:Entete" text="Projet encadré" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="Les étudiants en formation initiale auront l’occasion de développer un projet interdisciplinaire tout au long du premier semestre.&#xA;&#xA;"/>
+      <descriptions name="Compétences" contenu="Apprendre à gérer un projet en petit groupe."/>
+      <descriptions name="Evaluation" contenu="Projet en contrôle continue"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu=""/>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Cedric Dumoulin : Cedric.dumoulin@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Ingénierie des Modèles">
+    <conteneurs xsi:type="htmlProject:Entete" text="Ingénierie des Modèles" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 de la FORMATION. Il s’agit d’une UE optionnelle de cette mention.&#xA;&#xA;Volume horaire : 4h de cours, TD ou TP par semaine, pendant 12 semaines.&#xA;Cette UE constitue un pré-requis de l’UE Métamodélisation."/>
+      <descriptions name="Objectifs" contenu="L’objectif de cette UE est d’apprendre à concevoir des applications orientés objets de façon systématique et reproductible. Cette conception se base sur la réalisation de modèles UML représentant l’application à un haut niveau d’abstraction. A la fin de cette UE, l’étudiant.e sera capable d’établir les fonctionnalités d’une application (poser le problème), de concevoir l’application (proposer et analyser des solutions), et de réaliser l’application en suivant la solution proposée."/>
+      <descriptions name="Compétences" contenu="A la fin du cours, l’étudiant(e) devrait être capable de :&#xA;&#xA;Décrire les besoins de l’application&#xA;Découvrir de façon systématique les fonctionnalités (cas d’utilisation - C.U.) d’une application à partir d’une description des besoins&#xA;Établir un cahier des charges&#xA;Comparer et proposer des solutions pour la conception de l’application : architecture logicielle, maquettage&#xA;Gérer le changement&#xA;Rédiger un document décrivant le problème et la solution de conception pour d’une application."/>
+      <descriptions name="Evaluation" contenu="L’évaluation s’effectue suivant une procédure de contrôle continu. Il y a 3 rapports a rendre et une présentation finale.&#xA;&#xA;Il n’y a pas d’examen final, la soutenance finale tient lieu d’examen.&#xA;&#xA;Il y a un examen de rattrapage.&#xA;&#xA;Un sujet de projet est donné en début de semestre. Le projet consiste a analyser et concevoir une application d’après le sujet. Chaque rapport correspond à une itération de cette analyse et conception."/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="24"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="24"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Cedric Dumoulin : Cedric.dumoulin@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Cedric Dumoulin : Cedric.dumoulin@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Xavier Le Pallec : Xavier.Le-Pallec@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Michael Launay : Michael.launay@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :">
+        <elements xsi:type="htmlProject:Paragraphe" name="Cours magistral : Cours 1, le 09/09/2021 de 9h15 à 10h15"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="présentation&#xA;0.Presentation.pdf&#xA;Objectifs du cours&#xA;Plan du cours&#xA;Developement Challenge&#xA;01_DevelopementChallenge.pdf&#xA;Etapes pour la réalisation d’un logiciel&#xA;03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf&#xA;Les différentes etapes&#xA;Elicitation – construire les scenarios concrets&#xA;Analyse – trouver les CUs et les classes&#xA;Introduction à UML : CU et classes"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Ressources du cours"/>
+        <elements xsi:type="htmlProject:Lien" name="0.Presentation.pdf" adresse="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/0.Presentation.pdf" couleur="default"/>
+        <elements xsi:type="htmlProject:Lien" name="03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf" adresse="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf" couleur="default"/>
+        <elements xsi:type="htmlProject:Lien" name="01_DevelopementChallenge.pdf" adresse="http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/01_DevelopementChallenge.pdf" couleur="default"/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+  <pages name="Architecture des systèmes d'exploitation">
+    <conteneurs xsi:type="htmlProject:Entete" text="Architecture des systèmes d'exploitation" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="L’objectif de cette UE est de donner aux étudiants la maitrise des systèmes d’exploitations qui supportent l’exécutions de leurs programmes. A l’issue de ces enseignements l’étudiant doit comprendre l’architecture générale des logiciels qui compose d’un système d’exploitation. Il doit être en mesure de réaliser des pilotes de matériel efficaces et de justifier les performances d’un logiciel au regard du système et du matériel sur lequel il repose. Enfin il doit pouvoir concevoir et contribuer à la réalisation et/ou à la maintenance de piles logicielles complètes."/>
+      <descriptions name="Compétences" contenu="maitrise de la notion de politique d’ordonnancement ;&#xA;maitrise de la notion de partage de ressource ;&#xA;implémentation de piles de logiciels systèmes ;&#xA;bonne compréhension des mécanismes systèmes et de leur incidence sur l’exécution des applications."/>
+      <descriptions name="Evaluation" contenu="CC+CT"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="6"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="15"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="15"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Gilles Grimaud : Gilles.Grimaud@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Gilles Grimaud : Gilles.Grimaud@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Introduction à la Sécurité Informatique">
+    <conteneurs xsi:type="htmlProject:Entete" text="Introduction à la Sécurité Informatique" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="Les objectifs de ce module sont les suivants :&#xA;&#xA;Connaitre les concepts principaux de sécurité (authentification, confidentalité, etc.) et les risques associés&#xA;Connaitre les outils permettant de détecter les vulnérabilités logicielles (fuzzing, analyse statique, etc.)&#xA;Savoir déployer des stratégies de mitigation pour limiter l’impact d’une vulnérabilité (séparation de privilèges, virtualisation, etc.)"/>
+      <descriptions name="Compétences" contenu="Analyser les aspects liés à la sécurité sur un système ou un programme ;&#xA;Savoir employer les outils à disposition pour mitiger les risques de sécurité ;&#xA;Etre familiarisé avec les problématiques de vie privée et de fuite d’informations."/>
+      <descriptions name="Evaluation" contenu="CC+CT"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Gilles Grimaud : Gilles.Grimaud@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Gilles Grimaud : Gilles.Grimaud@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Projet Individuel">
+    <conteneurs xsi:type="htmlProject:Entete" text="Projet Individuel" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs"/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu=""/>
+      <descriptions name="Intervenants de l'UE" contenu=""/>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Architecture des systèmes d'exploitation avancée">
+    <conteneurs xsi:type="htmlProject:Entete" text="Architecture des systèmes d'exploitation avancée" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="Le principal enjeu de ce cours et d'apprendre la maitrise des problématiques d'asynchronisme au sein des logiciels et des logiciels de base (systèmes d'exploitation). Il s'agit aussi d'apprendre à concevoir des d'image de système d'exploitation (bootable) ainsi que la programmation de matériels asynchrones."/>
+      <descriptions name="Compétences" contenu="gestion de l'asynchronsime logiciel (interruptions, sémaphores/sections critiques), ...&#xA;gestion d'un matériel asynchrone&#xA;programmations d'interruptions matérielles et de sémaphore/moniteurs&#xA;implémentation de logiciels noyaux"/>
+      <descriptions name="Evaluation" contenu="Controle continu (deux projets et une note par Projet)."/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="6"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="18"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="0"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Gilles Grimaud : Gilles.Grimaud@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Gilles Grimaud : Gilles.Grimaud@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Giuseppe Lipari : Giuseppe.Lipari@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Samuel Hym : Samuel.Hym@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Systèmes répartis - 1">
+    <conteneurs xsi:type="htmlProject:Entete" text="Systèmes répartis - 1" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="Cette UE vise à présenter les fondamentaux des systèmes répartis et les principes qui guident toute interaction client/serveur."/>
+      <descriptions name="Compétences" contenu="Assimiler un état de l’art académique et industriel pour répondre à un problème posé en proposant une synthèse structurée et argumentées des solutions possibles;&#xA;Analyser rigoureusement et théoriquement la complexité d’un algorithme en termes de temps et ressources de calcul et de stockage;&#xA;Modéliser, organiser et optimiser le stockage et l’exploitation de grands volumes de données hétérogènes en respectant un cadre éthique et légal;&#xA;Concevoir et mettre en œuvre en autonomie ou collaborativement, de manière efficace, robuste et maintenable, un logiciel répondant à une liste d’exigences établies;&#xA;Organiser, piloter et communiquer en interne et en externe autour du développement d’un logiciel de grande ampleur;&#xA;Identifier et sécuriser les composantes environnementales, matérielles et logicielles d’un système informatique connecté en réseau exposé à une grande diversité d’usagers."/>
+      <descriptions name="Evaluation" contenu="CC+CT"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="6"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="6"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="6"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Romain Rouvoy : romain.rouvoy@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="clément quinton : clement.quinton@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Romain Rouvoy : romain.rouvoy@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Systèmes répartis - 2">
+    <conteneurs xsi:type="htmlProject:Entete" text="Systèmes répartis - 2" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="Cette UE vise à présenter les fondamentaux de la conception d’architectures logicielles conformes au style architectural REST.&#xA;&#xA;"/>
+      <descriptions name="Compétences" contenu="Assimiler un état de l’art académique et industriel pour répondre à un problème posé en proposant une synthèse structurée et argumentées des solutions possibles&#xA;Analyser rigoureusement et théoriquement la complexité d’un algorithme en termes de temps et ressources de calcul et de stockage&#xA;Modéliser, organiser et optimiser le stockage et l’exploitation de grands volumes de données hétérogènes en respectant un cadre éthique et légal&#xA;Concevoir et mettre en œuvre en autonomie ou collaborativement, de manière efficace, robuste et maintenable, un logiciel répondant à une liste d’exigences établies&#xA;Organiser, piloter et communiquer en interne et en externe autour du développement d’un logiciel de grande ampleur&#xA;Identifier et sécuriser les composantes environnementales, matérielles et logicielles d’un système informatique connecté en réseau exposé à une grande diversité d’usagers"/>
+      <descriptions name="Evaluation" contenu="CC+CT"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="6"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="0"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="18"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Romain Rouvoy : romain.rouvoy@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Romain Rouvoy : romain.rouvoy@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Bases de données relationnelles">
+    <conteneurs xsi:type="htmlProject:Entete" text="Bases de données relationnelles" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs" contenu="Comprendre les mécanismes mis en œuvre lorsqu’on pose une requête SQL à un SGBD relationnel : Pour une requête d’interrogation, comment cette requête est exécutée, et comment peut-on l’optimiser grâce à l’indexation ; pour une requête de modification, quel est d’une part l’impact de l’indexation et d’autre part que se passe-t-il en cas de modifications concurrentes d’une même table ?"/>
+      <descriptions name="Compétences" contenu="Comprendre les étapes effectuées par un moteur de requête SQL, comprendre le plan d’exécution d’une requête.&#xA;Savoir mettre en place de l’indexation des tables pour optimiser certaines requêtes d’interrogation, en comprendre les conséquences pour les requêtes de modification.&#xA;Connaitre les problèmes engendrés par la concurrence d’accès aux données, comprendre les solutions proposées par les SGBDR."/>
+      <descriptions name="Evaluation" contenu="CC+CT"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="0"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Sylvain Salvati  : Sylvain.salvati@univ-lille.fr "/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Anne-Cécile Caron : Anne-Cécile.Caron@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Sylvain Salvati  : Sylvain.salvati@univ-lille.fr "/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Anne-Cécile Caron : Anne-Cécile.Caron@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Génie logiciel">
+    <conteneurs xsi:type="htmlProject:Entete" text="Génie logiciel" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Présentation" contenu="Le parcours Génie Logiciel s’articule autour de la conception et du développement des logiciels agiles, c'est-à-dire des applications dont les fonctionnalités sont en parfaite adéquation avec les besoins des utilisateurs. Le parcours Génie Logiciel allie donc méthodes, concepts et technologies pour favoriser l’émergence d’applications innovantes sans jamais perdre de vue l’efficacité. Les domaines applicatifs étudiés s’étendent depuis l’informatique embarquée jusqu’aux grands systèmes répartis."/>
+      <descriptions name="Compétences visées" contenu="En lien étroit avec le monde de l’entreprise, de la recherche et de l’innovation, les étudiants suivant le parcours Génie Logiciel acquièrent des connaissances et des compétences applicables au développement et à la maintenance des systèmes d’informations modernes. De plus, la sensibilisation à la veille technologique favorise la transition vers l’intégration et le déploiement effectif de nouvelles technologies logicielles.&#xA;&#xA;Les compétences acquises dans le parcours Génie Logiciel sont les suivantes : maîtriser les concepts et les outils du développement logiciel; être capable d’intervenir dans toutes les étapes du cycle de vie des applications; savoir adopter un processus de développement garantissant la production d’un logiciel performant et de qualité; savoir gérer efficacement une équipe de développement; maîtriser les technologies phares tout en sachant s’adapter à celles qui les remplaceront; être capable d’intégrer une équipe agile; connaître les grands principes de l’entrepreneuriat en informatique côté startup; savoir mettre en place une veille technologique."/>
+      <descriptions name="Débouchées" contenu="Le parcours Génie Logiciel forme des informaticiens de niveau bac+5 spécialisés dans la conception, la mise en œuvre, le déploiement et la maintenance d’applications innovantes fortement connectées aux besoins des utilisateurs.&#xA;&#xA;Nos diplômés travaillent dans des ESN (Entreprises de services du numérique), des DSI (Direction des systèmes d’information) de grands groupes, des PME, des laboratoires de recherche publics et privés, où ils occupent un emploi en CDI. Avec 99% d’insertion pour un délai de recherche d’emploi de 15 jours en moyenne, on peut parler de situation idéale.&#xA;&#xA;La poursuite d'études en Thèse de Doctorat est possible à l'issue de cette formation."/>
+      <descriptions name="Semestre 1" contenu="Le semestre débutent le 09/09/2021 et termine le 09/01/2022">
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES facultatives du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Deploiement et Adminstration du Cloud" adresse="Deploiement et Adminstration du Cloud.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Sciences des données" adresse="Sciences des données.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Image" adresse="Image.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Technologies pour Applications Connectées" adresse="Technologies pour Applications Connectées.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES obligatoires du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Anglais" adresse="Anglais.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Initiation à la recherche" adresse="Initiation à la recherche.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Projet encadré" adresse="Projet encadré.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Ingénierie des Modèles" adresse="Ingénierie des Modèles.html" couleur="warning"/>
+      </descriptions>
+      <descriptions name="Semestre 2" contenu="Le semestre débutent le 01/01/2022 et termine le 03/04/2022">
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES obligatoires du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Architecture des systèmes d'exploitation" adresse="Architecture des systèmes d'exploitation.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Introduction à la Sécurité Informatique" adresse="Introduction à la Sécurité Informatique.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Projet Individuel" adresse="Projet Individuel.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Architecture des systèmes d'exploitation avancée" adresse="Architecture des systèmes d'exploitation avancée.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Systèmes répartis - 1" adresse="Systèmes répartis - 1.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Systèmes répartis - 2" adresse="Systèmes répartis - 2.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Bases de données relationnelles" adresse="Bases de données relationnelles.html" couleur="warning"/>
+      </descriptions>
+      <descriptions name="Responsable parcours" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="clément quinton : clement.quinton@univ-lille.fr"/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+  <pages name="E-services">
+    <conteneurs xsi:type="htmlProject:Entete" text="E-services" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Présentation" contenu="Le parcours E-Services s’articule autour de la conception et du développement des services numériques, c’est-à-dire des services accessibles au travers des moyens de communication numérique - notamment l’Internet – mais également au travers de tous les équipements liés à l’économie digitale : smartphones, tablettes, interfaces multi-touch, interfaces vocales, etc.&#xA;&#xA;Le parcours E-Services repose sur le développement de projets complets (de la conception à la réalisation et la promotion), en se concentrant sur les aspect utilisateurs, usages, IHM, UX, ainsi que des travaux autour de l'innovation et du rapport à la technologie."/>
+      <descriptions name="Compétences visées" contenu="En étroite liaison avec les mondes de l’entreprise, de la recherche et de l’innovation, le parcours E-Services a pour objectif de donner des connaissances et des compétences opérationnelles en matière de conception de services numériques, d’interfaces homme-machine, de gestion de projets, et de design applicatif. Il contient un ensemble cohérent de matières et de technologies à apprendre, à intégrer, mais aussi à expérimenter et à découvrir, pour être capable d’analyser le besoin des clients et proposer des solutions numériques innovantes, tout en étudiant leurs usages potentiels pour proposer la meilleure solution, principalement autour de l’expérience utilisateur (UX).&#xA;&#xA;Les enseignements de ce parcours mettent l’accent sur l’ergonomie et la conception graphique, la créativité, le génie logiciel, la gestion de projets, les infrastructures front et back (Java EE, .NET, etc.), et les langages et technologies pour le Web et pour les applications connectées (JavaScript, HTML5, Android, frameworks web, etc.)."/>
+      <descriptions name="Débouchées" contenu="Nos diplômés travaillent dans des entreprises de services du numérique (ESN), de transformation numérique, de technologie et d'ingénierie, de services d'infogérance, des PME/TPE ou des start-ups.&#xA;&#xA;Les métiers sont variés : maîtrise d'ouvrage, conception de produit, développement de solutions applicatives web et mobiles, marketing digital… et dans des domaines tels que santé, énergie, retail, transports, industrie, aérospatiale, media, banque, assurance, etc. Nos diplômés occupent le plus souvent des emplois de cadre (Bac+5) en CDI, dans les 15 jours qui suivent la fin de leurs études (+99% d’insertion).&#xA;&#xA;La poursuite en Thèse de Doctorat en Informatique est possible à l'issue de ce parcours.&#xA; "/>
+      <descriptions name="Semestre 1" contenu="Le semestre débutent le 09/09/2021 et termine le 09/01/2022">
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES facultatives du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Deploiement et Adminstration du Cloud" adresse="Deploiement et Adminstration du Cloud.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Image" adresse="Image.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Ingénierie des Modèles" adresse="Ingénierie des Modèles.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Sciences des données" adresse="Sciences des données.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES obligatoires du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Anglais" adresse="Anglais.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Technologies pour Applications Connectées" adresse="Technologies pour Applications Connectées.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Projet encadré" adresse="Projet encadré.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Initiation à la recherche" adresse="Initiation à la recherche.html" couleur="warning"/>
+      </descriptions>
+      <descriptions name="Semestre 2" contenu="Le semestre débutent le 01/01/2022 et termine le 03/04/2022">
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES obligatoires du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Architecture des systèmes d'exploitation" adresse="Architecture des systèmes d'exploitation.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Introduction à la Sécurité Informatique" adresse="Introduction à la Sécurité Informatique.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Systèmes répartis - 1" adresse="Systèmes répartis - 1.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Systèmes répartis - 2" adresse="Systèmes répartis - 2.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Bases de données relationnelles" adresse="Bases de données relationnelles.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Projet Individuel" adresse="Projet Individuel.html" couleur="warning"/>
+      </descriptions>
+      <descriptions name="Responsable parcours" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Jean-Claude Tarby : Jean-Claude.tarby@univ-lille.fr"/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+  <pages name="Master Miage">
+    <conteneurs xsi:type="htmlProject:Entete" text="Master Miage" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Présentation" contenu="Centrée sur l'ingénierie des systèmes d'information, la MIAGE a pour vocation de former des informaticiens&#xA;&#xA; Maîtrisant les technologies de l'information et les méthodes permettant de conduire un projet informatique depuis la spécification des besoins jusqu'à la mise en place&#xA; Sachant communiquer avec les partenaires de l'entreprise&#xA; Connaissant l'organisation des entreprises et leurs systèmes d'information&#xA;Le master MIAGE ne comporte qu'une seule spécialité en seconde année appelé Ingénierie de projets informatiques-nouvelles technologies (IPI-NT).&#xA;&#xA;Le master mention MIAGE comporte deux dispositifs : soit à temps plein à l'université (en formation &quot;initiale&quot;), soit par alternance, où les étudiants sont deux jours par semaine à l'université et trois jours en entreprise."/>
+      <descriptions name="Responsables de la formation" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Laetitia Jourdan  : Laetitia.jourdan@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Sylvain Salvati  : Sylvain.salvati@univ-lille.fr "/>
+      </descriptions>
+      <descriptions name="Secrétaires de la formation" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Bruno Mahiddine  : Bruno.mahiddine@univ-lille.fr  "/>
+      </descriptions>
+      <descriptions name="Crédit" contenu="120 ECTS"/>
+      <descriptions name="Parcours du master " contenu="Le Master Miage posséde différent parcours, voici les liens permettant d'avoir accés à leurs informations :">
+        <elements xsi:type="htmlProject:Lien" name="IPI-NT" adresse="IPI-NT.html" couleur="danger"/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+  <pages name="Bases de Données Avancées">
+    <conteneurs xsi:type="htmlProject:Entete" text="Bases de Données Avancées" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master MIAGE.&#xA;&#xA;Volume horaire : 4h par semaine, pendant 12 semaines.&#xA;&#xA;"/>
+      <descriptions name="Objectifs" contenu="Comprendre une partie du fonctionnement interne des Systèmes de Gestion de Bases de Données (SGBD) relationnels pour savoir comment il est possible de gérer de très grandes quantités de données, plusieurs utilisateurs concurrents, et utiliser les SGBD au mieux de leurs capacités."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Francis Bossut : Francis.bossut@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Francis Bossut : Francis.bossut@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Conception et Paradigmes de Programmations par la Pratique ">
+    <conteneurs xsi:type="htmlProject:Entete" text="Conception et Paradigmes de Programmations par la Pratique " niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master MIAGE.&#xA;&#xA;Volume horaire : 4h par semaine, pendant 12 semaines."/>
+      <descriptions name="Objectifs" contenu="Les objectifs pédagogiques de ce cours sont d’asseoir les concepts de la programmation et de la conception orientée objets dans le but de construire des logiciels ou des composants logiciels possédant les critères de qualité que sont la réutilisabilité, l’extensibilité, la maintenance, la fiabilité, l’efficacité, la facilité d’utilisation, la testabilité, l’intégrité …"/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="0"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="0"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="0"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Vincent Aranega : Vincent.Aranega@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Vincent Aranega : Vincent.Aranega@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Interactions, Conception, Mobilité">
+    <conteneurs xsi:type="htmlProject:Entete" text="Interactions, Conception, Mobilité" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master MIAGE.&#xA;&#xA;Volume horaire : 2h par semaine, pendant 12 semaines."/>
+      <descriptions name="Objectifs" contenu="Dans cette UE, on s’intéresse aux Interactions Hommes-Machines (IHM) et aux outils et méthodes permettant de concevoir des applications (principalement pour smartphones et tablettes) en utilisant notamment le logiciel App Inventor 2 (AI2), développé conjointement par Google et le MIT."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="José Rouillard : José.Rouillard@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="José Rouillard : José.Rouillard@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Conduite de Projet">
+    <conteneurs xsi:type="htmlProject:Entete" text="Conduite de Projet" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master MIAGE.&#xA;&#xA;Volume horaire : 8 séances de 3h, 1 semaine sur 2"/>
+      <descriptions name="Objectifs" contenu="Connaître les problèmes soulevés par la gestion de projet nouvelles technologies, se familiariser avec les principales techniques à mettre en œuvre, apprendre à anticiper pour atteindre les objectifs du projet."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="6"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="6"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Karim Mouzoun : Karim.Mouzoun@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Karim Mouzoun : Karim.Mouzoun@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Gestion de Production ">
+    <conteneurs xsi:type="htmlProject:Entete" text="Gestion de Production " niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master MIAGE.&#xA;&#xA;Volume horaire : 3h par semaine, pendant 8 semaines.&#xA;&#xA;"/>
+      <descriptions name="Objectifs" contenu="Situer le rôle et la place de la gestion de production dans une entreprise industrielle. Connaître les méthodes et les outils utilisées par l’entreprise pour gérer les flux, les délais et les charges. Comprendre les principes du Juste à temps et de qualité totale."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation" contenu="CT-CC"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="24"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="0"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Jean-Yves Chauvier : Jean-Yves.Chauvier@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Jean-Yves Chauvier : Jean-Yves.Chauvier@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Recherche Opérationnelle ">
+    <conteneurs xsi:type="htmlProject:Entete" text="Recherche Opérationnelle " niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master MIAGE.&#xA;&#xA;Volume horaire : 2h par semaine, pendant 12 semaines."/>
+      <descriptions name="Objectifs" contenu="L’objectif du cours de Recherche Opérationnelle est d’initier l’étudiant.e à l’utilisation de la recherche opérationnelle pour modéliser certaines classes de problèmes souvent rencontrés en industrie pour ensuite les résoudre par des approches issues notamment de la théorie des graphes et de la programmation linéaire.&#xA;&#xA;En complément du cours déjà bien illustré avec des exemples pratiques, des séries d’exercices corrigées permettront à l’étudiant.e d’assimiler une démarche méthodologique lui permettant d’appréhender, modéliser et résoudre des problèmes dans différents domaines d’application."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="0"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="0"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="0"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Nouredine Melab : Nouredine.Melab@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Nouredine Melab : Nouredine.Melab@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Communication">
+    <conteneurs xsi:type="htmlProject:Entete" text="Communication" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S1 du master MIAGE, suivi d'un projet de Communication au second semestre.&#xA;&#xA;Cette UE est uniquement à destination des étudiants en formation initiale.&#xA;&#xA;Volume horaire : 4h par semaine, pendant 6 semaines."/>
+      <descriptions name="Objectifs"/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu=""/>
+      <descriptions name="Intervenants de l'UE" contenu=""/>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Anglais ">
+    <conteneurs xsi:type="htmlProject:Entete" text="Anglais " niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Objectifs"/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="0"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="0"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="0"/>
+      <descriptions name="Responsables de l'UE" contenu=""/>
+      <descriptions name="Intervenants de l'UE" contenu=""/>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Entrepôts de Données">
+    <conteneurs xsi:type="htmlProject:Entete" text="Entrepôts de Données" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S2 du master MIAGE.&#xA;&#xA;Volume horaire : 2h par semaine, pendant 12 semaines."/>
+      <descriptions name="Objectifs" contenu="De nombreux moyens informatiques sont aujourd’hui mis en œuvre pour aider les organes de décision des entreprises et l’entrepôt de données (Datawarehouse) qui définit un support au système d’information décisionnel est un élément fondamental pour la prise de décision. Le but du cours est de familiariser l’étudiant avec les concepts d’entrepôt de données et notamment en lui apprenant à utiliser les méthodes d’organisation de grands ensembles de données ainsi que les outils et techniques permettant de les interroger et les explorer.&#xA;&#xA;"/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="0"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="0"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="0"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Anne-Cécile Caron : Anne-Cécile.Caron@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Laetitia Jourdan  : Laetitia.jourdan@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Anne-Cécile Caron : Anne-Cécile.Caron@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Laetitia Jourdan  : Laetitia.jourdan@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Fouilles de Données">
+    <conteneurs xsi:type="htmlProject:Entete" text="Fouilles de Données" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S2 du master MIAGE.&#xA;&#xA;Volume horaire : 2h par semaine, pendant 12 semaines.&#xA;&#xA;"/>
+      <descriptions name="Objectifs" contenu="A l’issue de ce module les étudiants doivent connaître les principales tâches de fouille de données et les algorithmes associés et savoir quand les appliquer ; connaitre les principaux outils d’analyse statistique des données et savoir les utiliser ; savoir interpréter des résultats de logiciels de fouille de données ; connaitre les grands logiciels de fouille de données."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation" contenu="CC-CT"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Anne-Cécile Caron : Anne-Cécile.Caron@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Laetitia Jourdan  : Laetitia.jourdan@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Anne-Cécile Caron : Anne-Cécile.Caron@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Laetitia Jourdan  : Laetitia.jourdan@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Conception d'Applications Réparties">
+    <conteneurs xsi:type="htmlProject:Entete" text="Conception d'Applications Réparties" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S2 du master MIAGE.&#xA;&#xA;Volume horaire : 4h par semaine, pendant 12 semaines.&#xA;&#xA;"/>
+      <descriptions name="Objectifs" contenu="À l’issue de l’enseignement, l’étudiant est capable de :&#xA;&#xA;concevoir des applications réparties mettant en œuvre des architectures client/serveur n-tiers pour les technologies de l’Internet ;&#xA;comprendre les enjeux du middleware ;&#xA;définir et mettre en œuvre des protocoles applicatifs ;&#xA;maîtriser les concepts réseaux et systèmes sous-jacents à ces protocoles et ces architectures ;&#xA;mettre en œuvre des composants web côté serveur.&#xA;"/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation"/>
+      <descriptions name="Type enseignement"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Lionel Seinturier : Lionel.Seinturier@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Lionel Seinturier : Lionel.Seinturier@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Analyse Financière et Jeu d'Entreprise">
+    <conteneurs xsi:type="htmlProject:Entete" text="Analyse Financière et Jeu d'Entreprise" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S2 du master MIAGE.&#xA;&#xA;Volume horaire : 4h par semaine, pendant 12 semaines.&#xA;&#xA;"/>
+      <descriptions name="Objectifs" contenu="Analyse financière&#xA;&#xA;Utiliser des outils pour mesurer et analyser l’activité de l’entreprise.&#xA;Utiliser des outils pour mesurer et analyser le patrimoine.&#xA;Utiliser des ratios, et mesurer la gestion, la solvabilité ou la rentabilité d’une entreprise.&#xA;Jeu d'entreprise&#xA;&#xA;Simuler sur plusieurs périodes l’activité d’une entreprise, et dans des conditions proches de la réalité : achats, production, ventes, négociation, investissements...&#xA;Travailler en équipe, respecter des procédures et un calendrier.&#xA;Négocier avec d’autres acteurs (réalisation de challenges).&#xA;Retravailler les éléments étudiés en analyse financière.&#xA;"/>
+      <descriptions name="Compétences" contenu=""/>
+      <descriptions name="Evaluation" contenu="CT-CC"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="François Secchi : François.secchi@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="François Secchi : François.secchi@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Ingénierie des Systèmes d'Information ">
+    <conteneurs xsi:type="htmlProject:Entete" text="Ingénierie des Systèmes d'Information " niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S2 du master MIAGE.&#xA;&#xA;Volume horaire : 3h par semaine pendant 8 semaines."/>
+      <descriptions name="Objectifs" contenu="A l’issue de l’enseignement, l’étudiant est capable de :&#xA;&#xA;Comprendre les problématiques de construction et de maintien en fonctionnement d’un SI, Connaître ses composants techniques et éléments majeurs (logiciels, ERP, BD, réseaux, serveurs, postes de travail, ...)&#xA;Comprendre les problématiques d’intégration de SI et d’ingénierie de SI.&#xA;Comprendre les modes de fonctionnement entre les DSI et les spécialistes de l’informatique&#xA; Connaître et comprendre les métiers des SI."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation" contenu="CT-CC"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="3"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Ioan Marius Bilasco : Ioan-Marius.bilasco@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Ioan Marius Bilasco : Ioan-Marius.bilasco@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Jean-Yves Chauvier : Jean-Yves.Chauvier@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="Projet Agilité Innovation ">
+    <conteneurs xsi:type="htmlProject:Entete" text="Projet Agilité Innovation " niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Organisation" contenu="Cette unité se déroule au S2 du master MIAGE.&#xA;&#xA;Volume horaire : 2h ou 3h par semaine, pour un total de 48h."/>
+      <descriptions name="Objectifs" contenu="A l’issu de cet enseignement, l’étudiant.e est capable de proposer un projet, démontrer par une étude de marché son côté innovant, et justifier par un business plan la viabilité du projet s’il était réalisé en entreprise."/>
+      <descriptions name="Compétences"/>
+      <descriptions name="Evaluation" contenu="Projet"/>
+      <descriptions name="Type enseignement" contenu="Présentiel"/>
+      <descriptions name="Crédit" contenu="6"/>
+      <descriptions name="Nombre de cours magistrales" contenu="12"/>
+      <descriptions name="Nombre de travaux dirigées" contenu="12"/>
+      <descriptions name="Nombre de travaux pratiques " contenu="12"/>
+      <descriptions name="Responsables de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Xavier Le Pallec : Xavier.Le-Pallec@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Intervenants de l'UE" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Xavier Le Pallec : Xavier.Le-Pallec@univ-lille.fr"/>
+      </descriptions>
+      <descriptions name="Séances" contenu="Voici les différentes séances organisées durant le semestre pour cette UE :"/>
+    </conteneurs>
+  </pages>
+  <pages name="IPI-NT">
+    <conteneurs xsi:type="htmlProject:Entete" text="IPI-NT" niveau="3"/>
+    <conteneurs xsi:type="htmlProject:Liste" text="">
+      <descriptions name="Présentation" contenu="Le Master mention Méthodes informatiques appliquées à la gestion des entreprises (MIAGE) forme des informaticien·ne·s expert·e·s en ingénierie et management des systèmes d’information. Un·e «miagiste» a de solides bases théoriques et des compétences technologiques en informatique, mais également en communication, gestion des organisations, et management de projets. L'intitulé du parcours est Ingénierie de projets informatiques - nouvelles technologies (IPI-NT).&#xA;&#xA;Outre des connaissances techniques dans le domaine des nouvelles technologies, cette formation apporte un savoir-faire en méthodologie de conduite de projet et de processus de développement d'application. Elle s'intéresse à la place de l'informatique dans la stratégie et l'organisation d'une entreprise.&#xA;&#xA;Le Master 1 MIAGE IPI-NT a évolué à la rentrée 2020&#xA;&#xA;Il est organisé en cinq Blocs de Connaissances et de Compétences (BCC). Ces BCC sont composés d'Unités d'Enseignement (UE)."/>
+      <descriptions name="Compétences visées" contenu="La MIAGE est une formation qui existe depuis quarante ans à l’université de Lille, elle est reconnue et fortement appréciée des entreprises. En effet, elle possède une forte empreinte professionnelle grâce :&#xA;&#xA;aux enseignements à tonalité professionnelle ou pour lesquels le retour d’expérience est essentiel, ceux-ci étant assurés par des professionnels de l’entreprise,&#xA;aux séminaires et conférences organisés régulièrement et animés par des experts,&#xA;aux rencontres informelles proposées avec des représentants d’entreprises du secteur informatique (chaque année, journée de simulations d’entretiens d’embauche (photo à droite), visites d’entreprises…),&#xA;aux enseignements ou projets de communication axés sur les dimensions relationnelles et managériales auxquelles doivent être formés de futurs ingénieurs informaticiens,&#xA;au stage de trois à six mois effectué en seconde année en formation initiale, ou à la présence en entreprise en formation par alternance."/>
+      <descriptions name="Débouchées" contenu="Au travers de cette professionnalisation, les diplômés du Master mention MIAGE peuvent prétendre à un large éventail de métiers d’ingénieur et de cadre en informatique. La qualité de la formation et son adéquation avec le monde socio-économique se traduit par une excellente employabilité : 99% d'insertion pour un délai de recherche d'emploi de 15 jours en moyenne."/>
+      <descriptions name="Semestre 1" contenu="Le semestre débutent le 09/09/2021 et termine le 01/01/2022">
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES obligatoires du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Bases de Données Avancées" adresse="Bases de Données Avancées.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Conception et Paradigmes de Programmations par la Pratique " adresse="Conception et Paradigmes de Programmations par la Pratique .html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Interactions, Conception, Mobilité" adresse="Interactions, Conception, Mobilité.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Conduite de Projet" adresse="Conduite de Projet.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Gestion de Production " adresse="Gestion de Production .html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Recherche Opérationnelle " adresse="Recherche Opérationnelle .html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Communication" adresse="Communication.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Anglais " adresse="Anglais .html" couleur="warning"/>
+      </descriptions>
+      <descriptions name="Semestre 2" contenu="Le semestre débutent le 01/01/2022 et termine le 03/04/2022">
+        <elements xsi:type="htmlProject:Paragraphe" name="Voici les UES obligatoires du semestre :"/>
+        <elements xsi:type="htmlProject:Lien" name="Entrepôts de Données" adresse="Entrepôts de Données.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Fouilles de Données" adresse="Fouilles de Données.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Conception d'Applications Réparties" adresse="Conception d'Applications Réparties.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Analyse Financière et Jeu d'Entreprise" adresse="Analyse Financière et Jeu d'Entreprise.html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Ingénierie des Systèmes d'Information " adresse="Ingénierie des Systèmes d'Information .html" couleur="warning"/>
+        <elements xsi:type="htmlProject:Lien" name="Projet Agilité Innovation " adresse="Projet Agilité Innovation .html" couleur="warning"/>
+      </descriptions>
+      <descriptions name="Responsable parcours" contenu="">
+        <elements xsi:type="htmlProject:Paragraphe" name="Laetitia Jourdan  : Laetitia.jourdan@univ-lille.fr"/>
+        <elements xsi:type="htmlProject:Paragraphe" name="Sylvain Salvati  : Sylvain.salvati@univ-lille.fr "/>
+      </descriptions>
+    </conteneurs>
+  </pages>
+</htmlProject:Site>

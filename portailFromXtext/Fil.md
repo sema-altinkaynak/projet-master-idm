@@ -1,0 +1,854 @@
+
+
+# Département Informatique
+
+
+
+
+Portail du département Informatique
+
+Le FIL (Formations en Informatique de Lille) est le Département Informatique de la Faculté des Sciences et Technologies (FST) de l'Université de Lille. Membre d'une université performante qui propose un environnement très favorable à la poursuite d'études, le FIL réunit des conditions scientifiques et matérielles qui garantissent des études de qualité et une formation reconnue.
+Que vous souhaitiez entreprendre ou poursuivre des études en informatique, des formations diplômantes aux différents niveaux universitaires sont proposées :
+Licence Informatique, composée des parcours INFO et MIAGE
+Licence Informatique-Mathématiques
+Master Informatique, regroupant 6 parcours : E-Services, Machine Learning, Génie Logiciel, Internet des Objets, Cloud Computing, Réalité Virtuelle et Augmentée
+Master MIAGE, et son parcours IPI-NT
+Master Data Science
+Master Bioinformatique, et son parcours MISO
+Master MEÉF Informatique pour la préparation au CAPES NSI – Informatique
+Ces formations sont accessibles en formation continue. Les masters sont accessibles en formation par alternance. Elles sont complétées par le Doctorat de l'Ecole doctorale Sciences Pour l'ingénieur (SPI) du Collège doctoral européen Lille Nord-de-France.
+Chaque année, 750 étudiants fréquentent nos formations. Ils bénéficient d'enseignements combinant de manière équilibrée les aspects théoriques et fondamentaux de l'informatique aux aspects pratiques et appliquées de cette discipline, complétés par des enseignements transversaux de langue, de communication et de connaissance des milieux professionnels. Les masters offrent un large choix de parcours spécifiques. Les étudiants ont l'occasion de valider les compétences et connaissances acquises au cours des stages obligatoires qui viennent conclure la licence et le master.
+Ces enseignements sont assurés par 55 enseignants du département et 25 intervenants issus du monde de l'entreprise. Ces enseignements sont soutenus par des personnels administratifs et techniques compétents, disponibles et performants. Hautement qualifiés, les enseignants-chercheurs sont membres de l'UMR Centre de Recherche en Informatique, Signal et Automatique de Lille (CRIStAL) ainsi que du centre de recherche Inria Lille - Nord Europe, garantissant une formation à et par la recherche et l'innovation.
+
+**Responsable :**
+
+Jean-stéphane varré
+
+
+
+
+# Master Informatique
+
+
+
+
+La mention informatique du master sciences et technologies de l'université de Lille a pour objectifs d'apporter aux étudiants des compétences de haut niveau, à la fois sur le plan théorique et pratique, dans le secteur des sciences de l'information et des technologies des communications.
+						Cette mention informatique est la poursuite d'études naturelle des étudiants ayant obtenu la licence mention informatique de l'université de Lille ou une licence à forte dominante informatique dans un autre établissement (ou tout autre diplôme de même niveau, sous réserve de la validation des études).
+						Cette mention est un cycle de deux ans organisée autour d'une première année commune se dérivant en cinq parcours.
+
+
+
+
+**Responsables Formation:**
+
+Romain Rouvoy : Romain.Rouvoy@univ-lille.fr
+
+Bureau 224, 2e étage du bâtiment M3 (extension)
+
+Telephone :03 20 43 44 94
+
+**Secrétaires Formation:**
+
+Pierre Rigolot : pierre.rigolot@univ-lille.fr
+
+Bureau 17, RdC du bâtiment M3
+
+Telephone :03 20 43 44 94
+
+Crédit : 120
+
+
+
+
+## Génie logiciel
+
+
+
+
+
+*Description :*
+
+
+Le parcours Génie Logiciel s’articule autour de la conception et du développement des logiciels agiles, c'est-à-dire des applications dont les fonctionnalités sont en parfaite adéquation avec les besoins des utilisateurs. Le parcours Génie Logiciel allie donc méthodes, concepts et technologies pour favoriser l’émergence d’applications innovantes sans jamais perdre de vue l’efficacité. Les domaines applicatifs étudiés s’étendent depuis l’informatique embarquée jusqu’aux grands systèmes répartis.
+
+
+*Compétences visées :*
+
+
+En lien étroit avec le monde de l’entreprise, de la recherche et de l’innovation, les étudiants suivant le parcours Génie Logiciel acquièrent des connaissances et des compétences applicables au développement et à la maintenance des systèmes d’informations modernes. De plus, la sensibilisation à la veille technologique favorise la transition vers l’intégration et le déploiement effectif de nouvelles technologies logicielles.
+Les compétences acquises dans le parcours Génie Logiciel sont les suivantes : maîtriser les concepts et les outils du développement logiciel; être capable d’intervenir dans toutes les étapes du cycle de vie des applications; savoir adopter un processus de développement garantissant la production d’un logiciel performant et de qualité; savoir gérer efficacement une équipe de développement; maîtriser les technologies phares tout en sachant s’adapter à celles qui les remplaceront; être capable d’intégrer une équipe agile; connaître les grands principes de l’entrepreneuriat en informatique côté startup; savoir mettre en place une veille technologique.
+
+
+*Débouchées :*
+
+
+Le parcours Génie Logiciel forme des informaticiens de niveau bac+5 spécialisés dans la conception, la mise en œuvre, le déploiement et la maintenance d’applications innovantes fortement connectées aux besoins des utilisateurs.
+Nos diplômés travaillent dans des ESN (Entreprises de services du numérique), des DSI (Direction des systèmes d’information) de grands groupes, des PME, des laboratoires de recherche publics et privés, où ils occupent un emploi en CDI. Avec 99% d’insertion pour un délai de recherche d’emploi de 15 jours en moyenne, on peut parler de situation idéale.
+La poursuite d'études en Thèse de Doctorat est possible à l'issue de cette formation.
+
+
+
+
+**Responsable Parcours:**
+
+Clément Quinton : clement.quinton@univ-lille.fr
+
+Bureau 17, RdC du bâtiment M3
+
+Telephone :03 20 43 44 94
+
+
+
+
+### S1
+
+
+
+
+
+*Date de début :*
+
+
+09/09/2021
+
+
+*Date de Fin :*
+
+
+15/12/2021
+
+
+
+
+#### UE obligatoires
+
+
+
+
+##### Ingénierie des Modèles
+
+
+
+
+
+*Objectifs :*
+
+
+L’objectif de cette UE est d’apprendre à concevoir des applications orientés objets de façon systématique et reproductible. 
+						Cette conception se base sur la réalisation de modèles UML représentant l’application à un haut niveau d’abstraction. 
+						A la fin de cette UE, l’étudiant.e sera capable d’établir les fonctionnalités d’une application (poser le problème), de concevoir l’application (proposer et analyser des solutions), 
+						et de réaliser l’application en suivant la solution proposée.
+
+
+*Programme :*
+
+
+La conception d’une application orientés objets peut se décomposer en trois phases :
+
+
+*Compétences :*
+
+
+A la fin du cours, l’étudiant(e) devrait être capable de :
+						Décrire les besoins de l’application
+						Découvrir de façon systématique les fonctionnalités (cas d’utilisation - C.U.) d’une application à partir d’une description des besoins
+						Établir un cahier des charges
+						Comparer et proposer des solutions pour la conception de l’application : architecture logicielle, maquettage
+						Gérer le changement
+						Rédiger un document décrivant le problème et la solution de conception pour d’une application.
+
+
+*Evaluation :*
+
+
+L’évaluation s’effectue suivant une procédure de contrôle continu. Il y a 3 rapports a rendre et une présentation finale.
+						Il n’y a pas d’examen final, la soutenance finale tient lieu d’examen.
+						Il y a un examen de rattrapage.
+						Un sujet de projet est donné en début de semestre. Le projet consiste a analyser et concevoir une application d’après le sujet. 
+						Chaque rapport correspond à une itération de cette analyse et conception.
+
+
+*Description :*
+
+
+Cette unité se déroule au S1 de la FORMATION. Il s’agit d’une UE optionnelle de cette mention.
+						  Volume horaire : 4h de cours, TD ou TP par semaine, pendant 12 semaines.
+
+
+*Type d'enseignement :*
+
+
+Présentiel
+
+
+*Nombre de cours magistrales :*
+
+
+15
+
+
+*Nombre de travaux dirigées :*
+
+
+15
+
+
+*Nombre de travaux pratiques :*
+
+
+15
+
+
+
+
+**Responsables UE :**
+
+Cedric Dumoulin : cedric.dumoulin@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Intervenant UE :**
+
+Cedric Dumoulin : cedric.dumoulin@univ-lille.fr
+
+
+
+Telephone :
+
+Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Séances :**
+
+
+
+
+###### cours 1
+
+
+
+
+
+*Description:*
+
+
+présentation
+0.Presentation.pdf
+Objectifs du cours
+Plan du cours
+Developement Challenge
+01_DevelopementChallenge.pdf
+Etapes pour la réalisation d’un logiciel
+03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf
+Les différentes etapes
+Elicitation – construire les scenarios concrets
+Analyse – trouver les CUs et les classes
+Introduction à UML : CU et classes
+
+
+*Type :*
+
+
+Cours magistral
+
+
+*Date :*
+
+
+11/09/2021
+
+
+*Horaire:*
+
+
+8H30 à 9h30
+
+
+
+
+
+*Ressources :*
+
+
+
+
+[0.Presentation.pdf](http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/0.Presentation.pdf)
+
+[01_DevelopementChallenge.pdf](http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/01_DevelopementChallenge.pdf)
+
+[03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf](http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf)
+
+
+#### UE facultatives
+
+
+
+
+##### Technologies pour Applications Connectées 
+
+
+
+
+
+*Objectifs :*
+
+
+programmer sur mobile
+concevoir et déployer des applications mobiles
+programmer des échanges entre des applications mobiles (front) et des serveurs (back/API)
+utiliser des librairies logicielles réputées dans le monde professionnel
+utiliser des bonnes pratiques.
+
+
+*Programme :*
+
+
+Actuellement, les TDs se font sur Android en Java. Les étudiants ont la possibilité de faire l'évaluation en Java ou en Kotlin. D'autres technologies sont envisagées pour l'avenir (Flutter, React Native...) en fonction de l'évolution du marché.
+			Programme :
+			Prise en main de l’environnement de développement (Android Studio)
+			Découverte des concepts fondamentaux (Layout, Activité, Fragments, Manifest, Permissions…)
+			Approfondissement par la découverte et l’utilisation de libraires largement utilisées dans le milieu professionnel telles que RxJava, Retrofit, Glide, etc.
+			 Mise en pratique des concepts fondamentaux et des librairies
+			Découverte de bonnes pratiques (architectures type MVP ou MVVM, tests, injection de dépendances…)
+			
+
+
+*Compétences :*
+
+
+Directes
+ Concevoir et mettre en œuvre en autonomie ou collaborativement, de manière efficace, robuste et maintenable, un logiciel répondant à une liste d’exigences établies;
+ Indirectes
+ Interaction homme-machine (IHM)
+ Réseau
+ Programmation sur mobile
+ Architectures logicielles
+ Bonnes pratiques dans le développement logiciel
+
+
+*Evaluation :*
+
+
+ L’évaluation repose sur une application à développer en autonomie et en binôme. La réalisation de cette application doit se faire au travers d’un dépôt Git dont l’évolution sera suivie et notée. La note finale se décomposera en deux parties :
+note A : une partie consacrée à l’application (respect du cahier des charges, absence de bug, architecture, etc.),
+note B : une partie consacrée à la documentation à fournir avec l’application, ainsi qu’à la méthodologie de travail (évolution dans le dépôt Git par exemple).
+Les modalités détaillées seront fournies en début d'année lors des enseignements.
+La note finale sur 20 (N) est calculée comme suit :
+N = (3 * note A + note B) / 4	
+Si l'unité n'est pas acquise, la note de seconde chance (S) est calculée comme suit :			
+S = min (10, note A)
+
+
+*Description :*
+
+
+
+
+
+*Type d'enseignement :*
+
+
+Présentiel
+
+
+*Nombre de cours magistrales :*
+
+
+15
+
+
+*Nombre de travaux dirigées :*
+
+
+15
+
+
+*Nombre de travaux pratiques :*
+
+
+15
+
+
+
+
+**Responsables UE :**
+
+Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Intervenant UE :**
+
+Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr
+
+
+
+Telephone :
+
+Cedric Dumoulin : cedric.dumoulin@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Séances :**
+
+
+
+
+###### Cours 1
+
+
+
+
+
+*Description:*
+
+
+Que va-t-on voir dans cette UE
+
+
+*Type :*
+
+
+Cours magistral
+
+
+*Date :*
+
+
+11/09/2021
+
+
+*Horaire:*
+
+
+13H30 à 14h30
+
+
+
+
+
+*Ressources :*
+
+
+
+
+[Que va-t-on voir dans cette UE](http://www.fil.univ-lille1.fr/~tarby/portailFIL/ue-M1S1-TAC/documents/2021-2022/cours/1.contenu_UE.pdf)
+
+
+## e-services
+
+
+
+
+
+*Description :*
+
+
+Le parcours E-Services s’articule autour de la conception et du développement des services numériques, c’est-à-dire des services accessibles au travers des moyens de communication numérique - notamment l’Internet – mais également au travers de tous les équipements liés à l’économie digitale : smartphones, tablettes, interfaces multi-touch, interfaces vocales, etc.
+Le parcours E-Services repose sur le développement de projets complets (de la conception à la réalisation et la promotion), en se concentrant sur les aspect utilisateurs, usages, IHM, UX, ainsi que des travaux autour de l'innovation et du rapport à la technologie.
+
+
+*Compétences visées :*
+
+
+En étroite liaison avec les mondes de l’entreprise, de la recherche et de l’innovation, le parcours E-Services a pour objectif de donner des connaissances et des compétences opérationnelles en matière de conception de services numériques, d’interfaces homme-machine, de gestion de projets, et de design applicatif. Il contient un ensemble cohérent de matières et de technologies à apprendre, à intégrer, mais aussi à expérimenter et à découvrir, pour être capable d’analyser le besoin des clients et proposer des solutions numériques innovantes, tout en étudiant leurs usages potentiels pour proposer la meilleure solution, principalement autour de l’expérience utilisateur (UX).
+Les enseignements de ce parcours mettent l’accent sur l’ergonomie et la conception graphique, la créativité, le génie logiciel, la gestion de projets, les infrastructures front et back (Java EE, .NET, etc.), et les langages et technologies pour le Web et pour les applications connectées (JavaScript, HTML5, Android, frameworks web, etc.).
+
+
+*Débouchées :*
+
+
+Nos diplômés travaillent dans des entreprises de services du numérique (ESN), de transformation numérique, de technologie et d'ingénierie, de services d'infogérance, des PME/TPE ou des start-ups.
+Les métiers sont variés : maîtrise d'ouvrage, conception de produit, développement de solutions applicatives web et mobiles, marketing digital… et dans des domaines tels que santé, énergie, retail, transports, industrie, aérospatiale, media, banque, assurance, etc. Nos diplômés occupent le plus souvent des emplois de cadre (Bac+5) en CDI, dans les 15 jours qui suivent la fin de leurs études (+99% d’insertion).
+			La poursuite en Thèse de Doctorat en Informatique est possible à l'issue de ce parcours.
+
+
+
+
+**Responsable Parcours:**
+
+Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+### S1
+
+
+
+
+
+*Date de début :*
+
+
+09/09/2021
+
+
+*Date de Fin :*
+
+
+15/12/2021
+
+
+
+
+#### UE obligatoires
+
+
+
+
+##### Technologies pour Applications Connectées 
+
+
+
+
+
+*Objectifs :*
+
+
+programmer sur mobile
+concevoir et déployer des applications mobiles
+programmer des échanges entre des applications mobiles (front) et des serveurs (back/API)
+utiliser des librairies logicielles réputées dans le monde professionnel
+utiliser des bonnes pratiques.
+
+
+*Programme :*
+
+
+Actuellement, les TDs se font sur Android en Java. Les étudiants ont la possibilité de faire l'évaluation en Java ou en Kotlin. D'autres technologies sont envisagées pour l'avenir (Flutter, React Native...) en fonction de l'évolution du marché.
+			Programme :
+			Prise en main de l’environnement de développement (Android Studio)
+			Découverte des concepts fondamentaux (Layout, Activité, Fragments, Manifest, Permissions…)
+			Approfondissement par la découverte et l’utilisation de libraires largement utilisées dans le milieu professionnel telles que RxJava, Retrofit, Glide, etc.
+			 Mise en pratique des concepts fondamentaux et des librairies
+			Découverte de bonnes pratiques (architectures type MVP ou MVVM, tests, injection de dépendances…)
+			
+
+
+*Compétences :*
+
+
+Directes
+ Concevoir et mettre en œuvre en autonomie ou collaborativement, de manière efficace, robuste et maintenable, un logiciel répondant à une liste d’exigences établies;
+ Indirectes
+ Interaction homme-machine (IHM)
+ Réseau
+ Programmation sur mobile
+ Architectures logicielles
+ Bonnes pratiques dans le développement logiciel
+
+
+*Evaluation :*
+
+
+ L’évaluation repose sur une application à développer en autonomie et en binôme. La réalisation de cette application doit se faire au travers d’un dépôt Git dont l’évolution sera suivie et notée. La note finale se décomposera en deux parties :
+note A : une partie consacrée à l’application (respect du cahier des charges, absence de bug, architecture, etc.),
+note B : une partie consacrée à la documentation à fournir avec l’application, ainsi qu’à la méthodologie de travail (évolution dans le dépôt Git par exemple).
+Les modalités détaillées seront fournies en début d'année lors des enseignements.
+La note finale sur 20 (N) est calculée comme suit :
+N = (3 * note A + note B) / 4	
+Si l'unité n'est pas acquise, la note de seconde chance (S) est calculée comme suit :			
+S = min (10, note A)
+
+
+*Description :*
+
+
+
+
+
+*Type d'enseignement :*
+
+
+Présentiel
+
+
+*Nombre de cours magistrales :*
+
+
+15
+
+
+*Nombre de travaux dirigées :*
+
+
+15
+
+
+*Nombre de travaux pratiques :*
+
+
+15
+
+
+
+
+**Responsables UE :**
+
+Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Intervenant UE :**
+
+Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr
+
+
+
+Telephone :
+
+Cedric Dumoulin : cedric.dumoulin@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Séances :**
+
+
+
+
+###### Cours 1
+
+
+
+
+
+*Description:*
+
+
+Que va-t-on voir dans cette UE
+
+
+*Type :*
+
+
+Cours magistral
+
+
+*Date :*
+
+
+11/09/2021
+
+
+*Horaire:*
+
+
+13H30 à 14h30
+
+
+
+
+
+*Ressources :*
+
+
+
+
+[Que va-t-on voir dans cette UE](http://www.fil.univ-lille1.fr/~tarby/portailFIL/ue-M1S1-TAC/documents/2021-2022/cours/1.contenu_UE.pdf)
+
+
+#### UE facultatives
+
+
+
+
+##### Ingénierie des Modèles
+
+
+
+
+
+*Objectifs :*
+
+
+L’objectif de cette UE est d’apprendre à concevoir des applications orientés objets de façon systématique et reproductible. 
+						Cette conception se base sur la réalisation de modèles UML représentant l’application à un haut niveau d’abstraction. 
+						A la fin de cette UE, l’étudiant.e sera capable d’établir les fonctionnalités d’une application (poser le problème), de concevoir l’application (proposer et analyser des solutions), 
+						et de réaliser l’application en suivant la solution proposée.
+
+
+*Programme :*
+
+
+La conception d’une application orientés objets peut se décomposer en trois phases :
+
+
+*Compétences :*
+
+
+A la fin du cours, l’étudiant(e) devrait être capable de :
+						Décrire les besoins de l’application
+						Découvrir de façon systématique les fonctionnalités (cas d’utilisation - C.U.) d’une application à partir d’une description des besoins
+						Établir un cahier des charges
+						Comparer et proposer des solutions pour la conception de l’application : architecture logicielle, maquettage
+						Gérer le changement
+						Rédiger un document décrivant le problème et la solution de conception pour d’une application.
+
+
+*Evaluation :*
+
+
+L’évaluation s’effectue suivant une procédure de contrôle continu. Il y a 3 rapports a rendre et une présentation finale.
+						Il n’y a pas d’examen final, la soutenance finale tient lieu d’examen.
+						Il y a un examen de rattrapage.
+						Un sujet de projet est donné en début de semestre. Le projet consiste a analyser et concevoir une application d’après le sujet. 
+						Chaque rapport correspond à une itération de cette analyse et conception.
+
+
+*Description :*
+
+
+Cette unité se déroule au S1 de la FORMATION. Il s’agit d’une UE optionnelle de cette mention.
+						  Volume horaire : 4h de cours, TD ou TP par semaine, pendant 12 semaines.
+
+
+*Type d'enseignement :*
+
+
+Présentiel
+
+
+*Nombre de cours magistrales :*
+
+
+15
+
+
+*Nombre de travaux dirigées :*
+
+
+15
+
+
+*Nombre de travaux pratiques :*
+
+
+15
+
+
+
+
+**Responsables UE :**
+
+Cedric Dumoulin : cedric.dumoulin@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Intervenant UE :**
+
+Cedric Dumoulin : cedric.dumoulin@univ-lille.fr
+
+
+
+Telephone :
+
+Jean-Claude Tarby : jean-claude.Tarby@univ-lille.fr
+
+
+
+Telephone :
+
+
+
+
+**Séances :**
+
+
+
+
+###### cours 1
+
+
+
+
+
+*Description:*
+
+
+présentation
+0.Presentation.pdf
+Objectifs du cours
+Plan du cours
+Developement Challenge
+01_DevelopementChallenge.pdf
+Etapes pour la réalisation d’un logiciel
+03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf
+Les différentes etapes
+Elicitation – construire les scenarios concrets
+Analyse – trouver les CUs et les classes
+Introduction à UML : CU et classes
+
+
+*Type :*
+
+
+Cours magistral
+
+
+*Date :*
+
+
+11/09/2021
+
+
+*Horaire:*
+
+
+8H30 à 9h30
+
+
+
+
+
+*Ressources :*
+
+
+
+
+[0.Presentation.pdf](http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/0.Presentation.pdf)
+
+[01_DevelopementChallenge.pdf](http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/01_DevelopementChallenge.pdf)
+
+[03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf](http://www.fil.univ-lille1.fr/~dumoulin/enseign/idm/cours/01.IntroductionEtmodele/03_EtapesRealisationLogiciel-ScenarioCuEtClasse.pdf)
+
